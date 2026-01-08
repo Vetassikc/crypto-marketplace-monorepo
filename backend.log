@@ -1,0 +1,483 @@
+
+> marketplace-server@2.0.0 dev
+> nodemon --exec node --loader ts-node/esm src/index.ts
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:86386) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:86386) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-01-08T17:41:21.995Z] GET /api/products - 200 (45ms)
+[2026-01-08T17:52:21.604Z] GET /api/products?sortBy=date_desc - 200 (16ms)
+[2026-01-08T17:52:21.605Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-08T17:52:22.975Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 200 (1359ms)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88427) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:88427) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88505) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+[Object: null prototype] {
+  Symbol(nodejs.util.inspect.custom): [Function: [nodejs.util.inspect.custom]]
+}
+
+Node.js v24.12.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88601) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+[Object: null prototype] {
+  Symbol(nodejs.util.inspect.custom): [Function: [nodejs.util.inspect.custom]]
+}
+
+Node.js v24.12.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88631) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+[Object: null prototype] {
+  Symbol(nodejs.util.inspect.custom): [Function: [nodejs.util.inspect.custom]]
+}
+
+Node.js v24.12.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88664) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:88664) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88740) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:88740) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88798) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:88798) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:88922) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:88922) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+prisma:info Starting a postgresql pool with 29 connections.
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T18:08:53.587Z] GET /api/products?sortBy=date_desc - 304 (19ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T18:08:53.589Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-08T18:08:53.597Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T18:09:23.587Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T18:09:23.589Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-08T18:09:23.598Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89069) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:89069) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89149) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:89149) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89252) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+[Object: null prototype] {
+  Symbol(nodejs.util.inspect.custom): [Function: [nodejs.util.inspect.custom]]
+}
+
+Node.js v24.12.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89294) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:89294) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89410) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:89410) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:89472) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:89472) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+prisma:info Starting a postgresql pool with 29 connections.
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:40:55.294Z] GET /api/products?sortBy=date_desc - 200 (18ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:40:55.296Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+[2026-01-08T21:40:55.308Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 200 (5ms)
+prisma:query SELECT 1
+prisma:query BEGIN
+prisma:query SELECT "public"."User"."id" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) OFFSET $2
+prisma:query INSERT INTO "public"."User" ("walletAddress","sellerStatus","createdAt","updatedAt") VALUES ($1,$2,$3,$4) RETURNING "public"."User"."id"
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."id" = $1 LIMIT $2 OFFSET $3
+prisma:query COMMIT
+[2026-01-08T21:41:19.400Z] POST /api/users - 200 (15ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:41:38.332Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 200 (4ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:41:38.335Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:41:38.345Z] GET /api/products - 200 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:41:38.347Z] GET /api/products - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+[2026-01-08T21:41:45.703Z] POST /api/stripe/connect - 200 (672ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:43:46.208Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (4ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:43:46.320Z] GET /api/products - 304 (2ms)
+[2026-01-08T21:43:46.328Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+[2026-01-08T21:43:49.185Z] POST /api/stripe/connect - 200 (649ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:16.495Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (13ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:16.610Z] GET /api/products - 304 (3ms)
+[2026-01-08T21:44:16.616Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query UPDATE "public"."Store" SET "stripeOnboardingComplete" = $1, "updatedAt" = $2 WHERE ("public"."Store"."id" = $3 AND 1=1) RETURNING "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt"
+[2026-01-08T21:44:17.000Z] POST /api/stripe/status - 200 (519ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:17.004Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 200 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:17.011Z] GET /api/products - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+[2026-01-08T21:44:25.450Z] GET /api/sellers/pending - 200 (6ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:44:25.451Z] GET /api/categories - 200 (6ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:44:25.454Z] GET /api/sellers/pending - 304 (3ms)
+[2026-01-08T21:44:25.454Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:44:27.543Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 200 (3ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:44:27.545Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:44:37.150Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:44:37.150Z] GET /api/sellers/pending - 304 (3ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:44:37.152Z] GET /api/categories - 304 (2ms)
+[2026-01-08T21:44:37.152Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:43.075Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:43.078Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:43.084Z] GET /api/products - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:43.088Z] GET /api/products - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE ("public"."Store"."ownerId" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query UPDATE "public"."Store" SET "cryptoWalletAddress" = $1, "updatedAt" = $2 WHERE ("public"."Store"."id" = $3 AND 1=1) RETURNING "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt"
+[2026-01-08T21:44:50.762Z] POST /api/stores/crypto-wallet - 200 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:50.772Z] GET /api/products - 304 (2ms)
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:44:52.654Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:44:52.654Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:44:52.655Z] GET /api/categories - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:44:52.656Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:44:55.084Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:44:55.086Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:59.234Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 200 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-08T21:44:59.237Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:59.243Z] GET /api/products - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:44:59.246Z] GET /api/products - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:45:03.560Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:45:03.560Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:45:03.561Z] GET /api/categories - 304 (1ms)
+[2026-01-08T21:45:03.561Z] GET /api/sellers/pending - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:45:04.365Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-08T21:45:04.367Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:45:08.628Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT 1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:45:08.630Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T21:45:08.631Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T21:45:08.632Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:45:10.921Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+[2026-01-08T21:45:10.924Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T22:01:13.998Z] GET /api/categories - 304 (37ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14) OFFSET $15
+[2026-01-08T22:01:13.999Z] GET /api/categories - 304 (1ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T22:01:14.001Z] GET /api/sellers/pending - 304 (38ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-08T22:01:14.002Z] GET /api/sellers/pending - 304 (1ms)

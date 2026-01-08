@@ -1,0 +1,97 @@
+
+> my-crypto-marketplace@0.1.0 start
+> react-scripts start
+
+(node:86367) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86367) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:86367) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/Checkout.tsx
+  Line 32:7:  'SEPOLIA_CHAIN_ID' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src/EditProduct.tsx
+  Line 5:21:  'Product' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/hooks/useProducts.ts
+  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
