@@ -83,4 +83,8 @@ model Order {
   createdAt          DateTime @default(now())
   product            Product  @relation(fields: [productId], references: [id])
   buyer              User     @relation(fields: [buyerWalletAddress], references: [walletAddress])
+  
+  shippingAddress    Json?
+  status             String   @default("PENDING_SHIPMENT") // PENDING_SHIPMENT, SHIPPED, DELIVERED
+  trackingNumber     String?
 }

@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, CreditCard, Wallet, ShieldCheck, Box as BoxIcon } from 'lucide-react';
 import { useWallet } from './context/WalletContext';
 import { apiClient, Product } from './api/client';
+import { resolveIPFS } from './utils/ipfs';
 import { cn } from './lib/utils';
 
 // Contract ABI
@@ -34,7 +35,7 @@ export default function ProductPage() {
         setProduct(data);
         
         if (data.imageUrls && data.imageUrls.length > 0) {
-          setSelectedImage(`${API_BASE}${data.imageUrls[0]}`);
+          setSelectedImage(data.imageUrls[0]);
         }
       } catch (error) {
         toast.error('Product not found');
@@ -47,35 +48,7 @@ export default function ProductPage() {
     fetchProduct();
   }, [id, navigate]);
 
-  const handleBuyCrypto = async () => {
-    if (!signer || !product || !account) {
-      toast.error('Please connect your wallet first');
-      return;
-    }
 
-    setBuying(true);
-
-    try {
-      const contract = new ethers.Contract(CONTRACT_ADDRESS, Marketplace_ABI.abi, signer);
-      const priceInWei = ethers.parseEther(String(product.price));
-      
-      toast.info('Confirm the transaction in MetaMask...');
-      const tx = await contract.buyProduct(product.id, { value: priceInWei });
-      
-      toast.info('Waiting for confirmation...');
-      await tx.wait();
-      
-      await apiClient.createOrder(account, product.id, tx.hash, 'CRYPTO');
-      
-      toast.success('Purchase successful! 🎉');
-      navigate('/profile');
-    } catch (error: unknown) {
-      const err = error as { reason?: string; message?: string };
-      toast.error(err.reason || err.message || 'Transaction failed');
-    } finally {
-      setBuying(false);
-    }
-  };
 
   if (loading) {
     return (
@@ -108,9 +81,10 @@ export default function ProductPage() {
         >
           <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-card/50 backdrop-blur-sm relative group">
             <img
-              src={selectedImage || 'https://via.placeholder.com/500'}
+              src={resolveIPFS(selectedImage)} // Use resolveIPFS (selectedImage is already full URL or URI)
               alt={product.name}
               className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+              onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/500?text=No+Image'; }}
             />
           </div>
           
@@ -119,15 +93,15 @@ export default function ProductPage() {
               {product.imageUrls.map((url, index) => (
                 <button
                   key={index}
-                  onClick={() => setSelectedImage(`${API_BASE}${url}`)}
+                  onClick={() => setSelectedImage(url)} 
                   className={cn(
                     "w-20 h-20 rounded-lg overflow-hidden border-2 transition-all shrink-0",
-                    selectedImage === `${API_BASE}${url}` 
+                    selectedImage === url 
                       ? "border-primary shadow-[0_0_10px_rgba(var(--primary),0.5)]" 
                       : "border-transparent opacity-60 hover:opacity-100"
                   )}
                 >
-                  <img src={`${API_BASE}${url}`} alt="" className="w-full h-full object-cover" />
+                  <img src={resolveIPFS(url)} alt="" className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
@@ -163,40 +137,28 @@ export default function ProductPage() {
 
              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <button
-                  onClick={handleBuyCrypto}
-                  disabled={!isConnected || buying}
-                  className={cn(
-                    "flex flex-col items-center justify-center p-4 rounded-xl border border-primary/20 bg-primary/10 hover:bg-primary/20 transition-all gap-2 group",
-                    (!isConnected || buying) && "opacity-50 cursor-not-allowed"
-                  )}
+                  onClick={() => navigate(`/checkout/${product.id}`)}
+                  className="flex flex-col items-center justify-center p-4 rounded-xl border border-primary/20 bg-primary/10 hover:bg-primary/20 transition-all gap-2 group"
                 >
-                   {buying ? (
-                     <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin" />
-                   ) : (
-                     <>
-                        <Wallet className="w-6 h-6 text-primary mb-1 group-hover:scale-110 transition-transform" />
-                        <span className="font-semibold text-primary">Pay with Crypto</span>
-                        <span className="text-xs text-muted-foreground">Instant Settlement</span>
-                     </>
-                   )}
+                    <Wallet className="w-6 h-6 text-primary mb-1 group-hover:scale-110 transition-transform" />
+                    <span className="font-semibold text-primary">Pay with Crypto</span>
+                    <span className="text-xs text-muted-foreground">Via Escrow Contract</span>
                 </button>
 
-                <RouterLink
-                  to={`/checkout/${product.id}`}
+                <button
+                  onClick={() => navigate(`/checkout/${product.id}`)}
                   className="flex flex-col items-center justify-center p-4 rounded-xl border border-secondary/50 bg-secondary/10 hover:bg-secondary/20 transition-all gap-2 group"
                 >
                    <CreditCard className="w-6 h-6 text-secondary-foreground mb-1 group-hover:scale-110 transition-transform" />
                    <span className="font-semibold text-secondary-foreground">Pay with Card</span>
                    <span className="text-xs text-muted-foreground">Secure Stripe Checkout</span>
-                </RouterLink>
+                </button>
              </div>
 
-             {!isConnected && (
-                <div className="flex items-center gap-2 text-amber-500 text-sm bg-amber-500/10 p-3 rounded-lg border border-amber-500/20">
-                  <ShieldCheck className="w-4 h-4" />
-                  Connect wallet to pay with crypto.
-                </div>
-             )}
+             <div className="flex items-center gap-2 text-blue-400 text-sm bg-blue-400/10 p-3 rounded-lg border border-blue-400/20">
+               <ShieldCheck className="w-4 h-4" />
+               Secure shipping and delivery handling included.
+             </div>
           </div>
 
           <div className="prose prose-invert max-w-none">

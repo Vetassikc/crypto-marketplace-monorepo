@@ -15,7 +15,7 @@ router.post(
   '/',
   requireAuth,
   asyncHandler(async (req, res) => {
-    const { productId, transactionHash, paymentMethod } = req.body as CreateOrderBody;
+    const { productId, transactionHash, paymentMethod, shippingDetails } = req.body as CreateOrderBody;
 
     if (!productId || !paymentMethod) {
       throw ApiError.badRequest('Product ID and payment method are required');
@@ -40,6 +40,7 @@ router.post(
         productId,
         transactionHash: transactionHash || null,
         paymentMethod,
+        shippingAddress: shippingDetails ? (shippingDetails as any) : undefined, // Cast to any for JSON compatibility if needed
       },
     });
 

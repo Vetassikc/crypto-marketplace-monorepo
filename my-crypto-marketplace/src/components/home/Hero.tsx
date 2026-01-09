@@ -7,10 +7,10 @@ export function Hero() {
     <div className="relative overflow-hidden min-h-[600px] flex items-center justify-center -mt-[80px] pt-[80px]">
       {/* Background Effects */}
       {/* Background Effects - Animated for VartMarkt style */}
-      <div className="absolute inset-0 bg-background z-0">
-        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/20 blur-[120px] rounded-full animate-pulse" />
-        <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-blue-400/10 blur-[120px] rounded-full animate-pulse delay-1000" />
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0)_0%,rgba(255,255,255,0.8)_100%)]" />
+      {/* Background Effects */}
+      <div className="absolute inset-0 bg-transparent z-0">
+        {/* Optional: Add subtle gradients if needed, but keeping it clean for global video */}
+        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] bg-primary/10 blur-[120px] rounded-full animate-pulse" />
       </div>
 
       <div className="relative z-10 px-6 lg:px-12 text-center w-full max-w-none">

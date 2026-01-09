@@ -1,7 +1,8 @@
-import React from 'react';
+import { resolveIPFS } from '../../utils/ipfs';
 import { motion } from 'framer-motion';
-import { ShoppingCart, Eye } from 'lucide-react';
-import { Product } from '../../api/client'; // Assume Product type is exported here or define it locally if not
+import { Eye, ShoppingCart } from 'lucide-react';
+import { Product } from '../../api/client';
+import { formatPrice } from '../../lib/utils';
 
 interface ProductCardProps {
   product: Product;
@@ -9,17 +10,8 @@ interface ProductCardProps {
   onView: (id: number) => void;
 }
 
-const formatPrice = (price: number) => {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-  }).format(price);
-};
-
 export function ProductCard({ product, onBuy, onView }: ProductCardProps) {
-  const imageUrl = product.imageUrls?.[0]
-    ? `${process.env.REACT_APP_API_URL || 'http://localhost:3001'}${product.imageUrls[0]}`
-    : 'https://via.placeholder.com/300x200?text=No+Image';
+  const imageUrl = resolveIPFS(product.imageUrls?.[0]);
 
   return (
     <motion.div

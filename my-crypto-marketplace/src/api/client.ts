@@ -171,11 +171,18 @@ class ApiClient {
     walletAddress: string,
     productId: number,
     transactionHash: string,
-    paymentMethod: 'STRIPE' | 'CRYPTO'
+    paymentMethod: 'STRIPE' | 'CRYPTO',
+    shippingDetails: ShippingDetails
   ) {
     return this.request<Order>('/api/orders', {
       method: 'POST',
-      body: JSON.stringify({ walletAddress, productId, transactionHash, paymentMethod }),
+      body: JSON.stringify({ 
+        walletAddress, 
+        productId, 
+        transactionHash, 
+        paymentMethod,
+        shippingDetails 
+      }),
     });
   }
 
@@ -204,6 +211,17 @@ class ApiClient {
 }
 
 // Types
+export interface ShippingDetails {
+  fullName: string;
+  addressLine1: string;
+  addressLine2?: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  country: string;
+  phoneNumber: string;
+}
+
 interface User {
   id: number;
   walletAddress: string;
@@ -250,6 +268,9 @@ interface Order {
   productId: number;
   paymentMethod: string;
   transactionHash: string | null;
+  status?: string;
+  shippingDetails?: ShippingDetails;
+  trackingNumber?: string;
   product?: {
     name: string;
     price: number;
@@ -260,5 +281,6 @@ interface Order {
 // Singleton instance
 export const apiClient = new ApiClient(API_BASE_URL);
 
+// Re-export types
 // Re-export types
 export type { User, Store, Product, Category, Order };

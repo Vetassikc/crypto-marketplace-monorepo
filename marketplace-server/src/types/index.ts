@@ -90,6 +90,16 @@ export interface CreateOrderBody {
   productId: number;
   transactionHash: string;
   paymentMethod: 'STRIPE' | 'CRYPTO';
+  shippingDetails?: {
+    fullName: string;
+    addressLine1: string;
+    addressLine2?: string;
+    city: string;
+    state: string;
+    postalCode: string;
+    country: string;
+    phoneNumber: string;
+  };
 }
 
 export interface StripeConnectBody {

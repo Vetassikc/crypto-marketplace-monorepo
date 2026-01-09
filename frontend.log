@@ -2,12 +2,309 @@
 > my-crypto-marketplace@0.1.0 start
 > craco start
 
-(node:77076) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(node:90366) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:77076) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
-(node:77076) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:90366) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:90366) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
+Compiled successfully!
+
+You can now view my-crypto-marketplace in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.35:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+ERROR in src/App.tsx:13:24
+TS2306: File '/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/src/components/common/Layout.tsx' is not a module.
+    11 |
+    12 | // Components
+  > 13 | import { Layout } from './components/common/Layout';
+       |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    14 | import { ErrorBoundary } from './components/common/ErrorBoundary';
+    15 |
+    16 | // Pages
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.tsx
+  Line 15:10:  'MarketplaceProvider' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.tsx
+  Line 15:10:  'MarketplaceProvider' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.tsx
+Syntax error: JSX element 'MarketplaceProvider' has no corresponding closing tag (164:11)
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+ERROR in ./src/App.tsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/src/App.tsx: Expected corresponding JSX closing tag for <MarketplaceProvider>. (195:8)
+
+  193 |             pauseOnHover
+  194 |           />
+> 195 |         </WalletProvider>
+      |         ^
+  196 |       </ErrorBoundary>
+  197 |     </MuiThemeProvider>
+  198 |   );
+    at constructor (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:6627:19)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4757:16)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4728:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4728:32)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4728:32)
+    at TypeScriptParserMixin.jsxParseElement (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4779:17)
+    at TypeScriptParserMixin.parseExprAtom (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4789:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11076:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11061:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11041:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9852:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10894:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10899:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10876:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10826:21)
+    at /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9790:39
+    at TypeScriptParserMixin.tryParse (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:6935:20)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9790:18)
+    at /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10795:39
+    at TypeScriptParserMixin.allowInAnd (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12427:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10795:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12494:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11674:28)
+    at TypeScriptParserMixin.parseExprAtom (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11326:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:4794:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11076:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11061:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:11041:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9852:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10894:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10899:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10876:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10826:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9801:20)
+    at TypeScriptParserMixin.parseExpressionBase (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10779:23)
+    at /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10775:39
+    at TypeScriptParserMixin.allowInAnd (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12422:16)
+    at TypeScriptParserMixin.parseExpression (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10775:17)
+    at TypeScriptParserMixin.parseReturnStatement (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9527:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12101:24)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12087:10)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9248:18)
+
+ERROR in [eslint] 
+src/App.tsx
+  Line 164:11:  Parsing error: JSX element 'MarketplaceProvider' has no corresponding closing tag
+
+webpack compiled with 2 errors and 1 warning
+ERROR in src/App.tsx:164:12
+TS17008: JSX element 'MarketplaceProvider' has no corresponding closing tag.
+    162 |       <ErrorBoundary>
+    163 |         <WalletProvider>
+  > 164 |           <MarketplaceProvider>
+        |            ^^^^^^^^^^^^^^^^^^^
+    165 |             <Router>
+    166 |             <Layout>
+    167 |               <Routes>
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+No issues found.
 Compiled with warnings.
 
 [eslint] 
@@ -15,14 +312,7 @@ src/components/common/Layout.tsx
   Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
 
 src/components/common/Navbar.tsx
-  Line 4:19:   'ShoppingCart' is defined but never used       @typescript-eslint/no-unused-vars
-  Line 17:10:  'scrolled' is assigned a value but never used  @typescript-eslint/no-unused-vars
-
-src/components/marketplace/SidebarFilters.tsx
-  Line 2:10:  'motion' is defined but never used  @typescript-eslint/no-unused-vars
-
-src/hooks/useProducts.ts
-  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
 
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
@@ -32,14 +322,133 @@ src/components/common/Layout.tsx
   Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
 
 src/components/common/Navbar.tsx
-  Line 4:19:   'ShoppingCart' is defined but never used       @typescript-eslint/no-unused-vars
-  Line 17:10:  'scrolled' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
 
-src/components/marketplace/SidebarFilters.tsx
-  Line 2:10:  'motion' is defined but never used  @typescript-eslint/no-unused-vars
+webpack compiled with 1 warning
+No issues found.
+Compiling...
+Compiled with warnings.
 
-src/hooks/useProducts.ts
-  Line 34:6:  React Hook useCallback has a missing dependency: 'options'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Navbar.tsx
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Navbar.tsx
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+webpack compiled with 1 warning
+ERROR in src/pages/Marketplace.tsx:108:22
+TS2304: Cannot find name 'setSearch'.
+    106 |                      setSelectedCategory('All');
+    107 |                      setPriceRange([0, 1000]);
+  > 108 |                      setSearch('');
+        |                      ^^^^^^^^^
+    109 |                    }}
+    110 |                    className="mt-6 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity"
+    111 |                  >
+
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Marketplace.tsx
+Syntax error: Declaration or statement expected (120:undefined)
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Navbar.tsx
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+ERROR in ./src/pages/Marketplace.tsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/src/pages/Marketplace.tsx: 'return' outside of function. (40:2)
+
+  38 |   });
+  39 |
+> 40 |   return (
+     |   ^
+  41 |     <div className="min-h-screen text-foreground">
+  42 |       {/* Search Header moved to Navbar */}
+  43 |
+    at constructor (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:6627:19)
+    at TypeScriptParserMixin.parseReturnStatement (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13136:12)
+    at TypeScriptParserMixin.parseStatementContent (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:9527:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12625:10)
+    at TypeScriptParserMixin.parseTopLevel (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:12615:25)
+    at TypeScriptParserMixin.parse (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:14492:10)
+    at TypeScriptParserMixin.parse (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:10144:18)
+    at parse (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/parser/lib/index.js:14526:38)
+    at parser (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/gensync/index.js:261:32)
+    at /Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/Marketplace.tsx
+  Line 120:  Parsing error: Declaration or statement expected
+
+webpack compiled with 2 errors and 1 warning
+ERROR in src/App.tsx:20:8
+TS1192: Module '"/Users/vitaliiradionov/Desktop/Marketplace/my-crypto-marketplace/src/pages/Marketplace"' has no default export.
+    18 | import Dashboard from './pages/Dashboard';
+    19 | import AddProduct from './pages/AddProduct';
+  > 20 | import Marketplace from './pages/Marketplace';
+       |        ^^^^^^^^^^^
+    21 | import Admin from './Admin';
+    22 | import Profile from './Profile';
+    23 | import Checkout from './Checkout';
+
+ERROR in src/pages/Marketplace.tsx:120:1
+TS1128: Declaration or statement expected.
+    118 |     </div>
+    119 |   );
+  > 120 | }
+        | ^
+    121 |
+
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Navbar.tsx
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/common/Layout.tsx
+  Line 2:15:  'Container' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/common/Navbar.tsx
+  Line 25:9:  'isMarketplace' is assigned a value but never used  @typescript-eslint/no-unused-vars
 
 webpack compiled with 1 warning
 No issues found.

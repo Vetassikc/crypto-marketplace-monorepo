@@ -12,6 +12,7 @@ import { WalletProvider } from './context/WalletContext';
 // Components
 import { Layout } from './components/common/Layout';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
+import { MarketplaceProvider } from './context/MarketplaceContext';
 
 // Pages
 import Dashboard from './pages/Dashboard';
@@ -160,7 +161,8 @@ function AppContent() {
       <CssBaseline />
       <ErrorBoundary>
         <WalletProvider>
-          <Router>
+          <MarketplaceProvider>
+            <Router>
             <Layout>
               <Routes>
                 {/* Main Routes */}
@@ -177,8 +179,9 @@ function AppContent() {
               </Routes>
             </Layout>
           </Router>
+        </MarketplaceProvider>
           
-          <ToastContainer
+        <ToastContainer
             theme={muiTheme.palette.mode as 'light' | 'dark'}
             position="bottom-right"
             autoClose={5000}

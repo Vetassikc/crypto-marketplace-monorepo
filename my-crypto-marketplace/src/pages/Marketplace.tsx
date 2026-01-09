@@ -1,31 +1,20 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ShoppingBag } from 'lucide-react';
+import { ShoppingBag } from 'lucide-react'; // Removed Search, ChevronDown
 import { useProducts } from '../hooks/useProducts';
 import { Hero } from '../components/home/Hero';
 import { ProductCard } from '../components/marketplace/ProductCard';
 import { SidebarFilters } from '../components/marketplace/SidebarFilters';
 import { Loading } from '../components/common/Loading';
-
-type SortOption = 'date_desc' | 'date_asc' | 'price_asc' | 'price_desc';
+import { useMarketplaceContext } from '../context/MarketplaceContext';
 
 export default function Marketplace() {
   const navigate = useNavigate();
-  const [search, setSearch] = useState('');
-  const [sortBy, setSortBy] = useState<SortOption>('date_desc');
-  const [debouncedSearch, setDebouncedSearch] = useState('');
+  const { debouncedSearch, sortBy, setSearch } = useMarketplaceContext();
   
   // Filters State
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
-
-  // Debounce search
-  React.useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedSearch(search);
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [search]);
 
   const { products, loading, error } = useProducts({
     search: debouncedSearch,
@@ -50,52 +39,8 @@ export default function Marketplace() {
   });
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      {/* Search Header */}
-      {/* Search Header - Monolithic border-b only, no floating containment */ }
-      <div className="sticky top-[73px] z-30 bg-background/95 backdrop-blur-sm border-b border-border">
-        <div className="w-full flex flex-col md:flex-row gap-4 items-center justify-between py-4 px-6 lg:px-12">
-          
-          {/* Search Bar */}
-          <div className="relative w-full md:max-w-sm">
-             <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-                <Search className="w-5 h-5 text-muted-foreground" />
-             </div>
-             <input 
-               type="text"
-               placeholder="Search Products..." 
-               value={search}
-               onChange={(e) => setSearch(e.target.value)}
-               className="w-full pl-10 pr-4 py-3 rounded-full bg-secondary/30 border border-transparent focus:border-primary focus:bg-background transition-all outline-none"
-             />
-             <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                <span className="text-xs text-muted-foreground border px-1.5 rounded bg-muted/50">⌘ F</span>
-             </div>
-          </div>
-
-          {/* Sort Dropdown */}
-          <div className="relative group">
-             <div className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-lg hover:bg-muted transition-colors">
-               <span className="text-sm text-muted-foreground">Sort By:</span>
-               <span className="font-medium">
-                 {sortBy === 'date_desc' && 'Newest'}
-                 {sortBy === 'date_asc' && 'Oldest'}
-                 {sortBy === 'price_asc' && 'Price: Low to High'}
-                 {sortBy === 'price_desc' && 'Price: High to Low'}
-               </span>
-               <ChevronDown className="w-4 h-4 text-muted-foreground" />
-             </div>
-             
-             {/* Dropdown Menu */}
-             <div className="absolute right-0 top-full mt-2 w-48 bg-card border border-border rounded-xl shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform origin-top-right z-50">
-               <button onClick={() => setSortBy('date_desc')} className="w-full text-left px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors text-sm">Newest First</button>
-               <button onClick={() => setSortBy('date_asc')} className="w-full text-left px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors text-sm">Oldest First</button>
-               <button onClick={() => setSortBy('price_asc')} className="w-full text-left px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors text-sm">Price: Low to High</button>
-               <button onClick={() => setSortBy('price_desc')} className="w-full text-left px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors text-sm">Price: High to Low</button>
-             </div>
-          </div>
-        </div>
-      </div>
+    <div className="min-h-screen text-foreground">
+      {/* Search Header moved to Navbar */}
 
       <Hero />
       
