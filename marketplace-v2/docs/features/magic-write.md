@@ -1,36 +1,36 @@
-# Magic Write (Магічний Опис)
+# Magic Write
 
-**Статус:** `Production Ready` 🟢
-**Модель:** `gemini-2.0-flash-exp` (Multimodal Vision)
+**Status:** `Production Ready` 🟢
+**Model:** `gemini-2.0-flash-exp` (Multimodal Vision)
 
-## 1. Огляд
-Написання описів товарів — це рутинна та складна робота для продавців. **Magic Write** автоматизує цей процес. Продавець просто завантажує фото, а AI створює професійний, SEO-оптимізований лістинг за лічені секунди.
+## 1. Overview
+Writing product descriptions is routine and difficult work for sellers. **Magic Write** automates this process. The seller simply uploads a photo, and the AI creates a professional, SEO-optimized listing in seconds.
 
-## 2. Можливості
-- **Аналіз зображення:** Розпізнає тип товару, матеріал, бренд (якщо видно лого), колір та стан.
-- **Copywriting:** Генерує "продаючий" текст, орієнтований на покупця.
-- **Структурування:** Автоматично розбиває опис на логічні блоки (Заголовок, Опис, Характеристики).
+## 2. Capabilities
+- **Image Analysis:** Recognizes product type, material, brand (if logo is visible), color, and condition.
+- **Copywriting:** Generates "sales-oriented" text focused on the buyer.
+- **Structuring:** Automatically breaks the description into logical blocks (Title, Description, Features).
 
-## 3. Інтеграція
+## 3. Integration
 
-### Кнопка "Magic Write"
-У формі створення товару (`/sell`) додано кнопку з іконкою "чарівної палички". Вона активна лише коли користувач додав посилання на зображення.
+### "Magic Write" Button
+A button with a "magic wand" icon has been added to the product creation form (`/sell`). It is active only when the user has added an image link.
 
-### Промпт Інженіринг
-Ми використовуємо спеціально налаштований System Prompt для досягнення консистентності:
+### Prompt Engineering
+We use a specially tuned System Prompt to achieve consistency:
 
 > "You are an expert e-commerce copywriter. Analyze this image and generate a professional listing. Output Format: Title, Description (max 3 sentences), Key Features (bullet points), Condition, Material."
 
-Це гарантує, що всі товари на маркетплейсі будуть мати уніфікований, професійний стиль описів, навіть якщо продавець не вміє гарно писати.
+This guarantees that all products on the marketplace will have a unified, professional description style, even if the seller is not a skilled copywriter.
 
-## 4. Приклад Роботи
+## 4. Example Output
 
-**Вхідні дані:** Фото помаранчевого iPhone.
+**Input:** Photo of an Orange iPhone.
 
-**Результат:**
+**Result:**
 *   **Title:** Sunset Glow iPhone 15 Pro - 256GB - Excellent Condition
-*   **Description:** Відчуйте енергію з цим яскравим iPhone у кольорі Sunset Glow. Пристрій в ідеальному стані, без подряпин, готовий стати вашим надійним помічником.
+*   **Description:** Experience the energy with this vibrant Sunset Glow iPhone. The device is in perfect condition, scratch-free, ready to be your reliable assistant.
 *   **Features:**
-    *   Ексклюзивний колір
-    *   Система камер Pro
-    *   Керамічний захист екрану
+    *   Exclusive Color
+    *   Pro Camera System
+    *   Ceramic Shield

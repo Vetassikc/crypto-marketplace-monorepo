@@ -1,38 +1,38 @@
-# Marketplace V2: Документація
+# Marketplace V2: Documentation
 
-Ласкаво просимо до офіційної документації проекту **Marketplace V2**. Цей проект є еволюцією класичних маркетплейсів, що поєднує в собі найкращі практики Web2 (зручність, швидкість) та Web3 (прозорість, децентралізація), підсилені штучним інтелектом (AI).
+Welcome to the official documentation for **Marketplace V2**. This project evolves traditional marketplaces by combining the best practices of Web2 (convenience, speed) and Web3 (transparency, decentralization), powered by Artificial Intelligence (AI).
 
-## 📚 Структура Документації
+## 📚 Documentation Structure
 
-### 🚀 Основні Модулі (Features)
-Детальний опис функціоналу, інструкції з використання та технічна реалізація:
+### 🚀 Key Modules (Features)
+Detailed functional descriptions, usage instructions, and technical implementation:
 
-- **[AI Smart Search (Розумний Пошук)](./features/ai-smart-search.md)**: Як працює наш NLP-пошук на базі Gemini 2.0.
-- **[Magic Write (Магічний Опис)](./features/magic-write.md)**: Генерація контенту для товарів за допомогою комп'ютерного зору.
-- **[Seller Studio (Студія Продавця)](./features/seller-studio.md)** (В розробці): Інструменти для керування магазином.
+- **[AI Smart Search](./features/ai-smart-search.md)**: How our NLP search works based on Gemini 2.0.
+- **[Magic Write](./features/magic-write.md)**: Content generation for products using computer vision.
+- **[Seller Studio](./features/seller-studio.md)** (In Development): Tools for managing your store.
 
-### 🛠 Технічна Частина
-Для розробників та архітекторів:
+### 🛠 Technical Section
+For developers and architects:
 
-- **[Архітектура Системи](./technical/architecture.md)**: Огляд стеку (Next.js, NestJS, Prisma), бази даних та інтеграцій.
-- **[Дизайн Система (Aurora)](./technical/design-system.md)**: Принципи побудови UI, тема Aurora, компоненти.
+- **[System Architecture](./technical/architecture.md)**: Stack overview (Next.js, NestJS, Prisma), databases, and integrations.
+- **[Design System (Aurora)](./technical/design-system.md)**: UI construction principles, Aurora theme, components.
 
-## 🏁 Швидкий Старт
+## 🏁 Quick Start
 
-### Вимоги
+### Requirements
 - Node.js 18+
 - PostgreSQL
 - Google Gemini API Key
 
-### Запуск
+### Launch
 ```bash
-# Встановлення залежностей
+# Install dependencies
 npm install
 
-# Запуск бази даних
+# Initialize database
 npx prisma generate
 npx prisma db push
 
-# Запуск проекту (Web + API)
+# Start project (Web + API)
 npx turbo run dev --filter=web --filter=@repo/api
 ```
