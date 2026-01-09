@@ -10,7 +10,7 @@ const router = Router();
 const ADMIN_WALLET = process.env.ADMIN_WALLET_ADDRESS;
 
 const requireAdmin = async (req: any, _res: any, next: any) => {
-  if (ADMIN_WALLET && req.user.walletAddress !== ADMIN_WALLET) {
+  if (ADMIN_WALLET && req.user.walletAddress.toLowerCase() !== ADMIN_WALLET.toLowerCase()) {
     return next(new ApiError(403, 'Admin access required'));
   }
   // If no ADMIN_WALLET configured, allow for dev testing (WARN: Insecure)

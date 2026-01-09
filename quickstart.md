@@ -14,6 +14,7 @@
 ## ⚡ One-Command Start
 
 ```bash
+cd /Users/vitaliiradionov/Desktop/Marketplace
 ./quickstart.sh
 ```
 

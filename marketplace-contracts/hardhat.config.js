@@ -9,5 +9,10 @@ module.exports = {
       url: process.env.SEPOLIA_RPC_URL || "",
       accounts: [process.env.PRIVATE_KEY || ""],
     },
+    tempo: {
+      url: "https://rpc.testnet.tempo.xyz",
+      chainId: 42429,
+      accounts: [process.env.PRIVATE_KEY || ""],
+    },
   },
 };

@@ -3,7 +3,7 @@ import { config } from './config/index.js';
 
 const app = createApp();
 
-app.listen(config.port, () => {
+const server = app.listen(config.port, () => {
   console.log(`
 ╔════════════════════════════════════════════════════════════╗
 ║  🚀 Marketplace Server Started                             ║
@@ -13,6 +13,11 @@ app.listen(config.port, () => {
 ║  Frontend:    ${config.frontendUrl.padEnd(42)}║
 ╚════════════════════════════════════════════════════════════╝
   `);
+});
+
+server.on('error', (err) => {
+  console.error('SERVER FAILED TO START:', err);
+  process.exit(1);
 });
 
 // Graceful shutdown

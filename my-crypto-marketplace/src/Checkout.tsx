@@ -29,7 +29,6 @@ const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY ||
 
 // Contract address
 const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS || '0x0000000000000000000000000000000000000000';
-const SEPOLIA_CHAIN_ID = '0xaa36a7';
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // Stripe Checkout Form Component

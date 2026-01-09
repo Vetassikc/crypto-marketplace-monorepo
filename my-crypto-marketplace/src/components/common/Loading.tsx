@@ -1,5 +1,4 @@
 import React from 'react';
-import { Box, CircularProgress, Typography } from '@mui/material';
 
 interface LoadingProps {
   message?: string;
@@ -8,20 +7,16 @@ interface LoadingProps {
 
 export function Loading({ message = 'Loading...', fullScreen = false }: LoadingProps) {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: fullScreen ? '100vh' : '200px',
-        gap: 2,
-      }}
-    >
-      <CircularProgress />
-      <Typography variant="body2" color="text.secondary">
-        {message}
-      </Typography>
-    </Box>
+    <div className={`flex flex-col items-center justify-center gap-4 ${fullScreen ? 'min-h-screen' : 'min-h-[200px]'}`}>
+      <div className="relative w-12 h-12">
+        <div className="absolute inset-0 rounded-full border-4 border-primary/30" />
+        <div className="absolute inset-0 rounded-full border-4 border-t-primary border-r-transparent border-b-transparent border-l-transparent animate-spin" />
+      </div>
+      {message && (
+        <p className="text-muted-foreground animate-pulse text-sm font-medium">
+          {message}
+        </p>
+      )}
+    </div>
   );
 }

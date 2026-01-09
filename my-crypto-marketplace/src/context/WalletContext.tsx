@@ -16,7 +16,18 @@ interface WalletContextType {
 
 const WalletContext = createContext<WalletContextType | null>(null);
 
-const CHAIN_ID = process.env.REACT_APP_NETWORK_CHAIN_ID || '0xaa36a7'; // Sepolia default
+const CHAIN_ID = '0xa5bd'; // Tempo Testnet (Primary) (42429)
+const TEMPO_NETWORK_PARAMS = {
+  chainId: CHAIN_ID,
+  chainName: 'Tempo Testnet',
+  nativeCurrency: {
+    name: 'USD',
+    symbol: 'USD',
+    decimals: 18,
+  },
+  rpcUrls: ['https://rpc.testnet.tempo.xyz'],
+  blockExplorerUrls: ['https://explore.tempo.xyz'],
+};
 
 interface WalletProviderProps {
   children: ReactNode;
@@ -38,9 +49,19 @@ export function WalletProvider({ children }: WalletProviderProps) {
       });
     } catch (error: unknown) {
       const err = error as { code?: number };
+      // This error code 4902 indicates that the chain has not been added to MetaMask.
       if (err.code === 4902) {
-        toast.error('Please add the network to your wallet first');
+        try {
+          await window.ethereum.request({
+            method: 'wallet_addEthereumChain',
+            params: [TEMPO_NETWORK_PARAMS],
+          });
+        } catch (addError) {
+          console.error('Failed to add Tempo network:', addError);
+          toast.error('Failed to add Tempo network to wallet');
+        }
       } else {
+        console.error('Failed to switch network:', err);
         toast.error('Failed to switch network');
       }
     }

@@ -70,18 +70,46 @@ export default function Admin() {
     }
   }, []);
 
-  // Check if user is contract owner
+  // Check if user is contract owner or admin via ENV
   useEffect(() => {
     const checkOwnership = async () => {
       if (!account || !signer) return;
       
+      const adminWallet = process.env.REACT_APP_ADMIN_WALLET?.toLowerCase();
+      const currentAccount = account.toLowerCase();
+      
+      let isContractOwner = false;
+      let isApprovedSeller = false;
+
+      // Check ENV Admin
+      if (adminWallet && adminWallet === currentAccount) {
+        setIsOwner(true);
+        // Admin is implicitly a seller too for testing
+        setIsSeller(true);
+        return;
+      }
+
       try {
         const contract = new ethers.Contract(CONTRACT_ADDRESS, Marketplace_ABI.abi, signer);
-        const owner = await contract.owner();
-        setIsOwner(owner.toLowerCase() === account.toLowerCase());
         
-        const sellerStatus = await contract.registeredSellers(account);
-        setIsSeller(sellerStatus);
+        try {
+          const owner = await contract.owner();
+          isContractOwner = owner.toLowerCase() === currentAccount;
+        } catch (e) {
+          console.warn('Failed to fetch contract owner', e);
+        }
+
+        try {
+          // Also check DB status via API if contract check fails or returns false
+           // TODO: Add proper endpoint for checking own status, for now relying on contract
+          const sellerStatus = await contract.registeredSellers(account);
+          isApprovedSeller = sellerStatus;
+        } catch (e) {
+           console.warn('Failed to fetch seller status from contract', e);
+        }
+        
+        setIsOwner(isContractOwner);
+        setIsSeller(isApprovedSeller);
       } catch (error) {
         console.error('Failed to check ownership:', error);
       }

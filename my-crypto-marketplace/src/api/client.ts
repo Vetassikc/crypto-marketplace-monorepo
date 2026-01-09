@@ -30,6 +30,7 @@ class ApiClient {
     options: RequestInit = {}
   ): Promise<T> {
     const url = `${this.baseUrl}${endpoint}`;
+    console.log(`[API] Fetching: ${url}`);
     
     const defaultHeaders: Record<string, string> = {
       'Content-Type': 'application/json',

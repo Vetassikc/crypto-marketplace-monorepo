@@ -1,0 +1,492 @@
+
+> marketplace-server@2.0.0 dev
+> nodemon --exec node --loader ts-node/esm src/index.ts
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `node --loader ts-node/esm src/index.ts`[39m
+(node:60967) ExperimentalWarning: `--experimental-loader` may be removed in the future; instead use `register()`:
+--import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+╔════════════════════════════════════════════════════════════╗
+║  🚀 Marketplace Server Started                             ║
+╠════════════════════════════════════════════════════════════╣
+║  Environment: development                               ║
+║  Port:        3001                                      ║
+║  Frontend:    http://localhost:3000                     ║
+╚════════════════════════════════════════════════════════════╝
+  
+(node:60967) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+prisma:info Starting a postgresql pool with 29 connections.
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:33:58.089Z] GET /api/products?sortBy=date_desc - 304 (122ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:33:58.091Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:33:58.270Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:36:20.155Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:36:20.157Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:36:20.182Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:38:47.055Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:38:47.056Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:38:47.068Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:38:47.092Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:38:47.364Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+[2026-01-09T08:38:47.405Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:39:52.817Z] GET /api/products?sortBy=date_desc - 304 (16ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:39:52.818Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:39:52.942Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:39:56.610Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:39:56.611Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:39:56.646Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:41:17.438Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:41:17.441Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+[2026-01-09T08:41:17.455Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:42:58.508Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:42:58.510Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+[2026-01-09T08:42:58.525Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:43:35.148Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:43:35.150Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:43:35.226Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.196Z] GET /api/products?sortBy=date_desc - 304 (30ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.200Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.200Z] GET /api/products?sortBy=date_desc - 304 (33ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.201Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.228Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.230Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.295Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.301Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.404Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.408Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.512Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:27.514Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:29.456Z] GET /api/products?sortBy=date_desc - 304 (5ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:29.461Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:29.502Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:29.504Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:29.506Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:30.412Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:34.119Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:45:34.120Z] GET /api/products?sortBy=date_desc - 304 (0ms)
+[2026-01-09T08:45:34.152Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.163Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.165Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.213Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.219Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.222Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.224Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:40.357Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:44.408Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:47:44.411Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+[2026-01-09T08:47:44.438Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:49:47.351Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:49:47.352Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:49:47.376Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:50:51.261Z] GET /api/products?sortBy=date_desc - 304 (13ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:50:51.263Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:50:51.272Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:53:15.527Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:53:15.528Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:53:15.552Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:56:33.529Z] GET /api/products?sortBy=date_desc - 304 (19ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:56:33.531Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:56:33.549Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:58:55.569Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T08:58:55.570Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T08:58:55.600Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:34.381Z] GET /api/products?sortBy=date_desc - 304 (27ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:34.384Z] GET /api/products?sortBy=date_desc - 304 (21ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:35.387Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:36.569Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:36.572Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:37.342Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:43.191Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:03:43.192Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:03:43.226Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE ("public"."Product"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1) OFFSET $2
+[2026-01-09T09:04:38.130Z] GET /api/products/3 - 200 (6ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE ("public"."Product"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1) OFFSET $2
+[2026-01-09T09:04:38.132Z] GET /api/products/3 - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:04:41.394Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:04:41.398Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT 1
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:05:13.796Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:05:13.797Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:05:13.823Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:05:14.353Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:05:21.026Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:05:21.027Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:05:21.063Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+[2026-01-09T09:06:19.250Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:11:15.997Z] GET /api/products?sortBy=date_desc - 304 (19ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:11:16.016Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:11:16.018Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:11:16.341Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:11:16.373Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:13:19.909Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:13:19.911Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:13:19.935Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:32.540Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:32.541Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:14:33.241Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-09T09:14:49.544Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (9ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-09T09:14:49.547Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:49.551Z] GET /api/products - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:49.553Z] GET /api/products - 304 (2ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26,$27,$28,$29,$30,$31,$32,$33) OFFSET $34
+[2026-01-09T09:14:55.213Z] GET /api/categories - 304 (5ms)
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26,$27,$28,$29,$30,$31,$32,$33) OFFSET $34
+[2026-01-09T09:14:55.215Z] GET /api/categories - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-09T09:14:55.229Z] GET /api/sellers/pending - 304 (20ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+[2026-01-09T09:14:55.230Z] GET /api/sellers/pending - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:59.919Z] GET /api/products?sortBy=date_desc - 304 (6ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:14:59.921Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."imageUrls" FROM "public"."Product" WHERE "public"."Product"."id" IN ($1) OFFSET $2
+[2026-01-09T09:16:02.694Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (6ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."imageUrls" FROM "public"."Product" WHERE "public"."Product"."id" IN ($1) OFFSET $2
+[2026-01-09T09:16:02.697Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (3ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:16:22.485Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:16:22.487Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:16:22.516Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:19:21.780Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:19:21.781Z] GET /api/products?sortBy=date_desc - 304 (0ms)
+[2026-01-09T09:19:21.816Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:20:53.228Z] GET /api/products?sortBy=date_desc - 304 (115ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:20:53.275Z] GET /api/products?sortBy=date_desc - 304 (45ms)
+[2026-01-09T09:20:53.710Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:21:46.723Z] GET /api/products?sortBy=date_desc - 304 (8ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:21:46.727Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+[2026-01-09T09:21:46.782Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:24:52.546Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:24:52.547Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:24:52.615Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:26:46.178Z] GET /api/products?sortBy=date_desc - 304 (17ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:26:46.179Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:26:46.251Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."imageUrls" FROM "public"."Product" WHERE "public"."Product"."id" IN ($1) OFFSET $2
+[2026-01-09T09:30:11.643Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (5ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Order"."id", "public"."Order"."buyerWalletAddress", "public"."Order"."productId", "public"."Order"."transactionHash", "public"."Order"."paymentMethod", "public"."Order"."createdAt" FROM "public"."Order" WHERE "public"."Order"."buyerWalletAddress" = $1 ORDER BY "public"."Order"."createdAt" DESC OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."imageUrls" FROM "public"."Product" WHERE "public"."Product"."id" IN ($1) OFFSET $2
+[2026-01-09T09:30:26.834Z] GET /api/orders?walletAddress=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (4ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:30:31.096Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:30:31.098Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:30:31.130Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:01.273Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:01.276Z] GET /api/products?sortBy=date_desc - 304 (3ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:25.524Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:25.526Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+[2026-01-09T09:31:25.571Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:27.978Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:27.979Z] GET /api/products?sortBy=date_desc - 304 (1ms)
+[2026-01-09T09:31:28.006Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (1ms)
+prisma:query SELECT 1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-09T09:31:41.080Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (9ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."id" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."description", "public"."Store"."ownerId", "public"."Store"."stripeAccountId", "public"."Store"."stripeOnboardingComplete", "public"."Store"."cryptoWalletAddress", "public"."Store"."createdAt", "public"."Store"."updatedAt" FROM "public"."Store" WHERE "public"."Store"."ownerId" IN ($1) OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE "public"."Product"."storeId" IN ($1) OFFSET $2
+[2026-01-09T09:31:41.124Z] GET /api/stores/me?address=0xe15c358c468e9ea52e3695071dc7d9111dc83a0a - 304 (43ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:41.189Z] GET /api/products - 304 (77ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:41.208Z] GET /api/products - 304 (14ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26,$27,$28,$29,$30,$31,$32,$33) OFFSET $34
+[2026-01-09T09:31:41.654Z] GET /api/categories - 304 (3ms)
+[2026-01-09T09:31:41.654Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE 1=1 OFFSET $1
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."walletAddress" = $1 AND 1=1) LIMIT $2 OFFSET $3
+prisma:query SELECT "public"."Category"."id", "public"."Category"."name", "public"."Category"."specificationsTemplate", "public"."Category"."parentId" FROM "public"."Category" WHERE "public"."Category"."parentId" IN ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22,$23,$24,$25,$26,$27,$28,$29,$30,$31,$32,$33) OFFSET $34
+[2026-01-09T09:31:41.657Z] GET /api/categories - 304 (2ms)
+[2026-01-09T09:31:41.657Z] GET /api/sellers/pending - 304 (2ms)
+prisma:query SELECT "public"."User"."id", "public"."User"."walletAddress", "public"."User"."name", "public"."User"."email", "public"."User"."phone", "public"."User"."deliveryAddress", "public"."User"."avatarUrl", "public"."User"."sellerStatus", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE "public"."User"."sellerStatus" = $1 OFFSET $2
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:42.482Z] GET /api/products?sortBy=date_desc - 304 (2ms)
+prisma:query SELECT "public"."Product"."id", "public"."Product"."name", "public"."Product"."price", "public"."Product"."storeId", "public"."Product"."createdAt", "public"."Product"."updatedAt", "public"."Product"."categoryId", "public"."Product"."description", "public"."Product"."imageUrls", "public"."Product"."specifications" FROM "public"."Product" WHERE 1=1 ORDER BY "public"."Product"."createdAt" DESC OFFSET $1
+prisma:query SELECT "public"."Store"."id", "public"."Store"."name", "public"."Store"."ownerId" FROM "public"."Store" WHERE "public"."Store"."id" IN ($1,$2) OFFSET $3
+[2026-01-09T09:31:42.486Z] GET /api/products?sortBy=date_desc - 304 (4ms)
+[2026-01-09T09:31:42.492Z] GET /uploads/1764235989257-Shell_Capture%7B0%7D_2025-11-22_17-18-02.png - 304 (0ms)
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read EIO
+    at TTY.onStreamRead (node:internal/stream_base_commons:216:20)
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  errno: -5,
+  code: 'EIO',
+  syscall: 'read'
+}
+
+Node.js v24.12.0
