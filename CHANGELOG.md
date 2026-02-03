@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Migrated smart contracts to Tempo Testnet (Chain ID 42429).
   - Configured Hardhat user config for primary Tempo RPC.
   - Added network switching logic to `WalletContext`.
+- **Phase 2: User Experience Revolution (Sprint 5 & 6)**:
+  - **Aurora Design System**: Implemented a new, premium UI theme with glassmorphism, animated aurora backgrounds, and fluid gradients.
+  - **Product Details Page**: Added dynamic routing (`listings/[id]`) with image support and "Buy Now" functionality.
+  - **Seller Studio**: Created a dedicated page (`/sell`) for listing items.
+  - **AI Integration**: Implemented "Magic Write" using Gemini AI to auto-generate product titles and descriptions from images.
+  - **Markdown Support**: Enabled rich text rendering for product descriptions using `react-markdown`.
 - **Documentation**:
   - Added `quickstart.md` for one-command startup.
   - Initialized `docs/` structure for comprehensive project documentation.

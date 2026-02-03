@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              Int      @id @default(autoincrement())
+  walletAddress   String   @unique
+  name            String?
+  email           String?  @unique
+  phone           String?
+  deliveryAddress String?
+  avatarUrl       String?  
+  sellerStatus    String   @default("NOT_SELLER") // NOT_SELLER, PENDING, APPROVED, REJECTED
+  
+  store           Store?
+  orders          Order[]
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Store {
+  id          Int       @id @default(autoincrement())
+  name        String
+  description String?
+  
+  owner       User      @relation(fields: [ownerId], references: [id])
+  ownerId     Int       @unique
+  
+  products    Product[]
+
+  stripeAccountId String?
+  stripeOnboardingComplete Boolean @default(false)
+  cryptoWalletAddress      String?
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Product {
+  id                  Int       @id @default(autoincrement())
+  name                String
+  price               Float
+  
+  store               Store     @relation(fields: [storeId], references: [id])
+  storeId             Int
+  
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+  
+  orders              Order[]
+  categoryId          Int?
+  category            Category? @relation(fields: [categoryId], references: [id])
+  description         String?
+  imageUrls           String[]
+  specifications      Json?
+}
+
+model Category {
+  id                     Int       @id @default(autoincrement())
+  name                   String    @unique
+  specificationsTemplate Json?
+  parentId               Int?
+  parent                 Category? @relation("Subcategories", fields: [parentId], references: [id])
+  children               Category[] @relation("Subcategories")
+  products               Product[]
+}
+
+model Order {
+  id                 Int      @id @default(autoincrement())
+  buyerWalletAddress String
+  productId          Int
+  transactionHash    String?
+  paymentMethod      String
+  createdAt          DateTime @default(now())
+  product            Product  @relation(fields: [productId], references: [id])
+  buyer              User     @relation(fields: [buyerWalletAddress], references: [walletAddress])
+  
+  shippingAddress    Json?
+  status             String   @default("PENDING_SHIPMENT") // PENDING_SHIPMENT, SHIPPED, DELIVERED
+  trackingNumber     String?
+}

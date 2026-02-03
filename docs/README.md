@@ -1,27 +1,38 @@
-# Crypto Marketplace Documentation
+# Marketplace V2: Documentation
 
-Welcome to the comprehensive documentation for the **Crypto Marketplace** project. This documentation covers the architecture, features, smart contracts, and setup guides for developers.
+Welcome to the official documentation for **Marketplace V2**. This project evolves traditional marketplaces by combining the best practices of Web2 (convenience, speed) and Web3 (transparency, decentralization), powered by Artificial Intelligence (AI).
 
-## 📚 Contents
+## 📚 Documentation Structure
 
-1. **[Architecture Overview](ARCHITECTURE.md)**
-   - System design, component interaction, and technology stack.
-2. **Features & Capabilities**
-   - **[Minting & Assets](features/MINTING.md)**: Deep dive into asset creation.
-   - **[Commerce & Payments](features/COMMERCE.md)**: Crypto vs Fiat flows.
-   - **[UX & Dashboard](features/UX_DASHBOARD.md)**: Theming and User management.
-3. **[Smart Contracts](SMART_CONTRACTS.md)**
-   - Contract logic, deployment details, and Tempo blockchain integration.
-4. **[API Reference](API.md)**
-   - Backend endpoints and data models.
+### 🚀 Key Modules (Features)
+Detailed functional descriptions, usage instructions, and technical implementation:
 
-## 🚀 Quick Links
+- **[AI Smart Search](./features/ai-smart-search.md)**: How our NLP search works based on Gemini 2.0.
+- **[Magic Write](./features/magic-write.md)**: Content generation for products using computer vision.
+- **[Seller Studio](./features/seller-studio.md)** (In Development): Tools for managing your store.
 
-- [Quick Start Guide](../quickstart.md)
-- [Changelog](../CHANGELOG.md)
-- [Project Repository](https://github.com/your-repo/marketplace)
+### 🛠 Technical Section
+For developers and architects:
 
----
+- **[System Architecture](./technical/architecture.md)**: Stack overview (Next.js, NestJS, Prisma), databases, and integrations.
+- **[Design System (Aurora)](./technical/design-system.md)**: UI construction principles, Aurora theme, components.
 
-## Project Context
-This is a Web3-enabled marketplace allowing users to mint, buy, and sell digital assets (NFTs) using both cryptocurrency (Ethereum/Tempo) and Fiat (Stripe). It features a hybrid architecture with a centralized backend for performance and caching, and a decentralized blockchain layer for asset ownership.
+## 🏁 Quick Start
+
+### Requirements
+- Node.js 18+
+- PostgreSQL
+- Google Gemini API Key
+
+### Launch
+```bash
+# Install dependencies
+npm install
+
+# Initialize database
+npx prisma generate
+npx prisma db push
+
+# Start project (Web + API)
+npx turbo run dev --filter=web --filter=@repo/api
+```

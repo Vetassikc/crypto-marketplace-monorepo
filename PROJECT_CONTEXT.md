@@ -18,61 +18,32 @@ Full-stack e-commerce marketplace platform enabling sellers to register, list pr
 
 ## 3. Project Structure (Post-Refactoring)
 
-```
 Marketplace/
-├── marketplace-server/          # Backend (Express + Prisma)
-│   ├── src/
-│   │   ├── index.ts            # ✅ Entry point with graceful shutdown
-│   │   ├── app.ts              # ✅ Express app factory
-│   │   ├── config/index.ts     # ✅ Environment validation
-│   │   ├── middleware/
-│   │   │   ├── errorHandler.ts # ✅ Global error handling
-│   │   │   └── logger.ts       # ✅ Request logging
-│   │   ├── routes/             # ✅ Modular route files
-│   │   │   ├── index.ts        # Route aggregator
-│   │   │   ├── users.ts
-│   │   │   ├── products.ts
-│   │   │   ├── stores.ts
-│   │   │   ├── stripe.ts
-│   │   │   ├── orders.ts
-│   │   │   ├── categories.ts
-│   │   │   └── sellers.ts
-│   │   ├── types/index.ts      # ✅ Shared TypeScript types
-│   │   └── utils/
-│   │       ├── ApiError.ts     # ✅ Custom error class
-│   │       └── asyncHandler.ts # ✅ Async route wrapper
-│   └── prisma/schema.prisma
+├── apps/
+│   ├── api/                    # ✅ Backend (NestJS + Prisma)
+│   │   ├── src/
+│   │   │   ├── main.ts         # ✅ Entry point (Port 3001)
+│   │   │   ├── app.module.ts   # ✅ Root Module
+│   │   │   └── ...             # Modular resources
+│   │   └── package.json
+│   │
+│   └── web/                    # ✅ Frontend (Next.js 15, React 19)
+│       ├── app/                # ✅ App Router
+│       ├── components/         # ✅ React Components
+│       ├── hooks/              # ✅ Custom Hooks
+│       └── package.json
 │
-├── marketplace-contracts/       # Smart contracts (Hardhat + Solidity)
-│   ├── contracts/Marketplace.sol
-│   └── test/Marketplace.test.js
+├── packages/
+│   ├── contracts/              # ✅ Smart Contracts (Hardhat)
+│   ├── database/               # ✅ Prisma Schema & Client
+│   ├── ui/                     # ✅ Shared UI Components
+│   └── typescript-config/      # ✅ Shared TS Config
 │
-├── my-crypto-marketplace/       # Frontend (React + TypeScript + MUI)
-│   └── src/
-│       ├── App.tsx             # ✅ Refactored entry point
-│       ├── index.tsx           # ✅ React 18 root
-│       ├── api/client.ts       # ✅ Centralized API client
-│       ├── context/
-│       │   └── WalletContext.tsx  # ✅ Wallet connection state
-│       ├── hooks/
-│       │   ├── useProducts.ts     # ✅ Product fetching hook
-│       │   └── useStore.ts        # ✅ Store management hook
-│       ├── components/common/
-│       │   ├── Layout.tsx         # ✅ App layout with nav
-│       │   ├── Loading.tsx        # ✅ Loading spinner
-│       │   └── ErrorBoundary.tsx  # ✅ Error boundary
-│       ├── pages/
-│       │   ├── Dashboard.tsx      # ✅ Seller dashboard
-│       │   ├── Marketplace.tsx    # ✅ Product listing
-│       │   └── AddProduct.tsx     # ✅ Product creation
-│       ├── Admin.tsx              # ✅ Admin panel
-│       ├── Profile.tsx            # ✅ User profile
-│       ├── Checkout.tsx           # ✅ Hybrid payment
-│       ├── ProductPage.tsx        # ✅ Product detail
-│       └── EditProduct.tsx        # ✅ Product editing
+├── _archive/                   # 📦 Legacy Code
 │
-└── quickstart.sh               # Setup and launch script
-```
+├── package.json                # ✅ Root TurboRepo Config
+└── quickstart.sh               # 🚀 Universal Launch Script
+
 
 ## 4. Database Schema (Key Models)
 
@@ -129,7 +100,7 @@ model Order {
 
 ## 6. Environment Variables
 
-### Backend (`marketplace-server/.env`)
+### Backend (`apps/api/.env`)
 ```env
 DATABASE_URL="postgresql://postgres:54irimez@localhost:5432/marketplace"
 STRIPE_SECRET_KEY=sk_test_...
@@ -139,12 +110,12 @@ NODE_ENV=development
 FRONTEND_URL="http://localhost:3000"
 ```
 
-### Frontend (`my-crypto-marketplace/.env`)
+### Frontend (`apps/web/.env.local`)
 ```env
-REACT_APP_API_URL=http://localhost:3001
-REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_...
-REACT_APP_CONTRACT_ADDRESS=0x...
-REACT_APP_NETWORK_CHAIN_ID=0xaa36a7  # Sepolia
+NEXT_PUBLIC_API_URL=http://localhost:3001
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
+NEXT_PUBLIC_CONTRACT_ADDRESS=0x...
+NEXT_PUBLIC_NETWORK_CHAIN_ID=0xaa36a7  # Sepolia
 ```
 
 ## 7. API Endpoints
