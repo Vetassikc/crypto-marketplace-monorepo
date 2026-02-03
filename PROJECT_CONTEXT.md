@@ -14,7 +14,7 @@ Full-stack e-commerce marketplace platform enabling sellers to register, list pr
 | **Backend** | Node.js, Express.js, TypeScript |
 | **Database** | PostgreSQL, Prisma ORM |
 | **Blockchain** | Solidity (Smart Contracts), Hardhat |
-| **Target Network** | Sepolia Testnet (EVM compatible) |
+| **Target Network** | **Tempo Testnet** (EVM compatible) |
 
 ## 3. Project Structure (Post-Refactoring)
 
@@ -115,7 +115,7 @@ FRONTEND_URL="http://localhost:3000"
 NEXT_PUBLIC_API_URL=http://localhost:3001
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 NEXT_PUBLIC_CONTRACT_ADDRESS=0x...
-NEXT_PUBLIC_NETWORK_CHAIN_ID=0xaa36a7  # Sepolia
+NEXT_PUBLIC_NETWORK_CHAIN_ID=123456  # Tempo Testnet
 ```
 
 ## 7. API Endpoints
