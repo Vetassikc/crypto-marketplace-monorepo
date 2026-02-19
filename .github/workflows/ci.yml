@@ -38,6 +38,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate Prisma client
+        run: npm run db:generate --workspace=@repo/database
+
       - name: Run lint
         run: npm run lint
 
@@ -56,6 +59,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate Prisma client
+        run: npm run db:generate --workspace=@repo/database
 
       - name: Run typecheck
         run: npm run check-types
@@ -76,6 +82,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Generate Prisma client
+        run: npm run db:generate --workspace=@repo/database
+
       - name: Run build
         run: npm run build
 
@@ -94,6 +103,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate Prisma client
+        run: npm run db:generate --workspace=@repo/database
 
       - name: Run API tests
         run: npm run test --workspace=@repo/api -- --runInBand

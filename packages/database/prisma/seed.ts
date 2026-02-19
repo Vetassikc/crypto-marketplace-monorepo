@@ -1,4 +1,4 @@
-import { PrismaClient, Role } from '@prisma/client'
+import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
@@ -9,7 +9,7 @@ async function main() {
     create: {
       email: 'seller@example.com',
       name: 'Test Seller',
-      role: Role.SELLER,
+      role: 'SELLER',
       wallets: {
         create: {
           address: '0x1234567890abcdef1234567890abcdef12345678',
