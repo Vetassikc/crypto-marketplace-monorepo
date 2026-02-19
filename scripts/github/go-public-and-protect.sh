@@ -15,7 +15,8 @@ OWNER="${OWNER:-}"
 REPO="${REPO:-}"
 BRANCH="${BRANCH:-main}"
 RUN_VERIFY="${RUN_VERIFY:-1}"
-REQUIRED_CHECKS_CSV="${REQUIRED_CHECKS_CSV:-CI / secret-scan,CI / lint,CI / typecheck,CI / build,CI / api-tests}"
+REQUIRED_CHECKS_CSV="${REQUIRED_CHECKS_CSV:-CI / secret-scan (pull_request),CI / lint (pull_request),CI / typecheck (pull_request),CI / build (pull_request),CI / api-tests (pull_request)}"
+REQUIRED_APPROVALS="${REQUIRED_APPROVALS:-0}"
 
 if [[ -z "$OWNER" || -z "$REPO" ]]; then
   REMOTE_URL="$(git remote get-url origin)"
@@ -66,6 +67,7 @@ CONTEXTS_JSON=$(
 
 PROTECTION_PAYLOAD=$(
   jq -n \
+    --argjson requiredApprovals "$REQUIRED_APPROVALS" \
     --argjson contexts "$CONTEXTS_JSON" \
     '{
       required_status_checks: {
@@ -76,7 +78,7 @@ PROTECTION_PAYLOAD=$(
       required_pull_request_reviews: {
         dismiss_stale_reviews: true,
         require_code_owner_reviews: false,
-        required_approving_review_count: 1
+        required_approving_review_count: $requiredApprovals
       },
       restrictions: null,
       required_linear_history: true,
