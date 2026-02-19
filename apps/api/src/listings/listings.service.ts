@@ -21,12 +21,23 @@ export class ListingsService {
     query?: string;
     minPrice?: number;
     maxPrice?: number;
+    category?: string;
     sortBy?: string;
     sortOrder?: 'asc' | 'desc';
+    sellerId?: string;
   }) {
-    const { query, minPrice, maxPrice, sortBy, sortOrder } = params;
-    
+    const { query, minPrice, maxPrice, category, sortBy, sortOrder, sellerId } =
+      params;
+
     const where: Prisma.ListingWhereInput = {};
+
+    if (sellerId) {
+      where.sellerId = sellerId;
+    }
+
+    if (category && category !== 'All') {
+      where.category = category;
+    }
 
     if (query) {
       where.OR = [
@@ -66,15 +77,22 @@ export class ListingsService {
   }
 
   async findOne(id: string) {
-    return this.prisma.listing.findUnique({
+    const listing = await this.prisma.listing.findUnique({
       where: { id },
-      include: { seller: true },
+      include: {
+        seller: {
+          include: {
+            wallets: true,
+          },
+        },
+      },
     });
+    return listing;
   }
 
   async update(id: string, updateListingDto: UpdateListingDto) {
     const { price, ...rest } = updateListingDto;
-    
+
     const data: Prisma.ListingUpdateInput = { ...rest };
     if (price) {
       data.price = new Prisma.Decimal(price);

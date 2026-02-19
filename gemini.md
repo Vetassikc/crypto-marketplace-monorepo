@@ -10,7 +10,23 @@
 - **Backend:** NestJS, Prisma ORM, PostgreSQL.
 - **AI Core:** Google Gemini 2.0 Flash Exp (Smart Search, Magic Write).
 - **Monorepo:** TurboRepo.
+- **Structure**:
+  - `apps/web`: Next.js Frontend
+  - `apps/api`: NestJS Backend
+  - `packages/database`: Prisma Schema & Client
+  - `.agent/skills/`: AI Skills.
+  - `docs/`: Global Documentation.
+  - `_archive/`: Legacy projects (reference only).
 - **Language:** TypeScript (Strict Mode).
+
+## 🔄 Development Workflow (Local-First)
+We strictly follow this cycle for every task:
+1.  **Develop Locally**: Write code and test basic functionality on `localhost`.
+2.  **Test**: Verified build (`npx turbo run build`) and manual check.
+3.  **Update Docs**: Review `docs/` folder. Add new features or update existing docs to match code.
+    - *Rule*: Code and Docs must always constitute a "Single Source of Truth".
+4.  **Confirm**: Ask the user: "Everything works, docs are updated. Ready to push?".
+5.  **Push**: Only after user approval, run `git push`.
 
 ## 🗣️ Communication Rules
 1.  **Chat Language**: Ukrainian (Українська). Always respond to the user in Ukrainian.

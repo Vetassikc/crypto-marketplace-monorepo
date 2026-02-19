@@ -10,8 +10,8 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY || ""],
     },
     tempo: {
-      url: "https://rpc.testnet.tempo.xyz",
-      chainId: 42429,
+      url: "https://rpc.moderato.tempo.xyz",
+      chainId: 42431,
       accounts: [process.env.PRIVATE_KEY || ""],
     },
   },

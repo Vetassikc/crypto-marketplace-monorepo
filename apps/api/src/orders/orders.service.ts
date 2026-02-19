@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma.service';
 import { CreateOrderDto } from './dto/create-order.dto';
+import { Prisma } from '@repo/database';
 
 @Injectable()
 export class OrdersService {
@@ -11,7 +12,8 @@ export class OrdersService {
       data: {
         listingId: createOrderDto.listingId,
         buyerId: createOrderDto.buyerId,
-        status: 'PENDING',
+        status: createOrderDto.txHash ? 'PAID' : 'PENDING', // Auto-set to PAID if crypto tx exists
+        txHash: createOrderDto.txHash,
       },
       include: {
         listing: true,
@@ -22,8 +24,21 @@ export class OrdersService {
     });
   }
 
-  async findAll() {
+  async findAll(buyerAddress?: string) {
+    const where: Prisma.OrderWhereInput = {};
+
+    if (buyerAddress) {
+      where.buyer = {
+        wallets: {
+          some: {
+            address: buyerAddress,
+          },
+        },
+      };
+    }
+
     return this.prisma.order.findMany({
+      where,
       include: {
         listing: true,
         buyer: {

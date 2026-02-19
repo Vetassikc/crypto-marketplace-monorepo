@@ -1,17 +1,17 @@
 import { defineChain } from 'viem'
 
 export const tempoTestnet = defineChain({
-  id: 123456, // Placeholder ID for Tempo Testnet
-  name: 'Tempo Testnet',
+  id: 42431,
+  name: 'Tempo Moderato',
   nativeCurrency: {
     decimals: 18,
-    name: 'Tempo USDC',
-    symbol: 'USDC',
+    name: 'Alpha USD',
+    symbol: 'AUSD',
   },
   rpcUrls: {
-    default: { http: ['https://rpc.tempo.xyz/testnet'] },
+    default: { http: ['https://rpc.moderato.tempo.xyz'] },
   },
   blockExplorers: {
-    default: { name: 'Tempo Explorer', url: 'https://testnet.tempo.xyz' },
+    default: { name: 'Tempo Explorer', url: 'https://scout.moderato.tempo.xyz' },
   },
 })

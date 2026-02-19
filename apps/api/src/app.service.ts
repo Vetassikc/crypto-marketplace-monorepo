@@ -14,7 +14,9 @@ export class AppService {
       const count = await this.prisma.user.count();
       return `Database Connected! User count: ${count}`;
     } catch (error) {
-      return `Database Connection Failed: ${error}`;
+      const errorMessage =
+        error instanceof Error ? error.message : 'Unknown error';
+      return `Database Connection Failed: ${errorMessage}`;
     }
   }
 }

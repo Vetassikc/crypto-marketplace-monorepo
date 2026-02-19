@@ -1,4 +1,13 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  Query,
+} from '@nestjs/common';
 import { ListingsService } from './listings.service';
 import { CreateListingDto, UpdateListingDto } from './dto/create-listing.dto';
 
@@ -16,15 +25,19 @@ export class ListingsController {
     @Query('q') query?: string,
     @Query('minPrice') minPrice?: string,
     @Query('maxPrice') maxPrice?: string,
+    @Query('category') category?: string,
     @Query('sortBy') sortBy?: string,
     @Query('sortOrder') sortOrder?: 'asc' | 'desc',
+    @Query('sellerId') sellerId?: string,
   ) {
     return this.listingsService.findAll({
       query,
       minPrice: minPrice ? parseFloat(minPrice) : undefined,
       maxPrice: maxPrice ? parseFloat(maxPrice) : undefined,
+      category,
       sortBy,
       sortOrder,
+      sellerId,
     });
   }
 

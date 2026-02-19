@@ -1,5 +1,7 @@
 'use client'
 
+import { useState, useEffect } from 'react'
+
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 import { Button } from '@/components/ui/Button'
 import { injected } from 'wagmi/connectors'
@@ -9,6 +11,19 @@ export function ConnectWallet() {
   const { address, isConnected } = useAccount()
   const { connect } = useConnect()
   const { disconnect } = useDisconnect()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return (
+      <Button variant="glass" disabled>
+        Loading...
+      </Button>
+    )
+  }
 
   if (isConnected) {
     return (
@@ -16,6 +31,11 @@ export function ConnectWallet() {
         <Link href="/my-orders">
           <Button variant="ghost" size="sm" className="text-white hover:text-brand-500">
             My Orders
+          </Button>
+        </Link>
+        <Link href="/my-listings">
+          <Button variant="ghost" size="sm" className="text-white hover:text-brand-500">
+            My Listings
           </Button>
         </Link>
         <span className="text-sm text-neutral-400">

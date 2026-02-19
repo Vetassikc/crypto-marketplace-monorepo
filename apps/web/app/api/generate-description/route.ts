@@ -1,5 +1,8 @@
-import { google } from '@ai-sdk/google';
+import { createOpenAI } from '@ai-sdk/openai';
 import { generateText } from 'ai';
+
+const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1';
+const DEFAULT_MODEL = process.env.OPENROUTER_MODEL || 'google/gemini-2.0-flash-001';
 
 export async function POST(req: Request) {
   try {
@@ -9,19 +12,21 @@ export async function POST(req: Request) {
       return new Response('Image URL is required', { status: 400 });
     }
 
-    const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-    
-    // Mock response if API key is missing
+    const apiKey = process.env.OPENROUTER_API_KEY;
     if (!apiKey) {
-      console.warn("GOOGLE_GENERATIVE_AI_API_KEY not found. Using mock response.");
-      await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate delay
-      return Response.json({ 
-        description: `(AI Generated Mock) \n\n**Title:** Premium Item from Image \n\n**Description:** Based on the image provided, this appears to be a high-quality item suitable for listing. \n- **Condition:** Excellent \n- **Material:** Premium finish \n\n*Note: Add GOOGLE_GENERATIVE_AI_API_KEY to .env.local to enable real Gemini AI generation.*` 
-      });
+      return Response.json(
+        { error: 'AI provider is not configured. Set OPENROUTER_API_KEY.' },
+        { status: 503 },
+      );
     }
 
+    const openrouter = createOpenAI({
+      baseURL: OPENROUTER_BASE_URL,
+      apiKey,
+    });
+
     const { text } = await generateText({
-      model: google('gemini-2.0-flash-exp'),
+      model: openrouter(DEFAULT_MODEL),
       messages: [
         {
           role: 'user',
@@ -35,10 +40,7 @@ export async function POST(req: Request) {
 
     return Response.json({ description: text });
   } catch (error) {
-    console.error('AI Generation Error:', error);
-    // Return mock on error too for resilience during demo
-    return Response.json({ 
-        description: `(Fallback) Could not generate description. \n\nError details: ${error instanceof Error ? error.message : 'Unknown error'}` 
-    });
+    console.error('AI generation failed:', error);
+    return Response.json({ error: 'Could not generate description right now.' }, { status: 500 });
   }
 }

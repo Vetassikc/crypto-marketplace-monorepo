@@ -1,6 +1,15 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "ui": "tui",
+  "globalEnv": [
+    "DATABASE_URL",
+    "GOOGLE_GENERATIVE_AI_API_KEY",
+    "NEXT_PUBLIC_API_URL",
+    "OPENROUTER_API_KEY",
+    "OPENROUTER_MODEL",
+    "PRIVATE_KEY",
+    "SEPOLIA_RPC_URL"
+  ],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],

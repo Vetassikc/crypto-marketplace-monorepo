@@ -5,6 +5,9 @@
   --color-brand-100: #e0f2fe;
   --color-brand-500: #0ea5e9;
   --color-brand-900: #0c4a6e;
+  --color-brand-950: #062233;
+  --color-mint-400: #34d399;
+  --color-steel-900: #0b1320;
 
   --color-dark-bg: #0a0a0a;
   --color-dark-card: #121212;
@@ -33,9 +36,17 @@
 
   body {
     @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at 12% -8%, rgba(14, 165, 233, 0.25), transparent 28%),
+      radial-gradient(circle at 90% 12%, rgba(52, 211, 153, 0.18), transparent 26%),
+      linear-gradient(180deg, #04070e 0%, #070d17 56%, #09111d 100%);
   }
 }
 
 .glass {
   @apply bg-white/10 backdrop-blur-md border border-white/20;
+}
+
+.premium-card {
+  @apply rounded-3xl border border-white/10 bg-white/[0.04] backdrop-blur-xl;
 }

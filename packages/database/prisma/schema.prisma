@@ -75,6 +75,7 @@ model Listing {
   description String?
   price       Decimal 
   currency    String   @default("USDC")
+  category    String   @default("Other")
   images      String[]
   sellerId    String
   seller      User     @relation(fields: [sellerId], references: [id])
@@ -87,7 +88,7 @@ model Listing {
 model Order {
   id        String   @id @default(cuid())
   listingId String
-  listing   Listing  @relation(fields: [listingId], references: [id])
+  listing   Listing  @relation(fields: [listingId], references: [id], onDelete: Cascade)
   buyerId   String
   buyer     User     @relation(fields: [buyerId], references: [id])
   status    OrderStatus @default(PENDING)

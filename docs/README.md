@@ -1,38 +1,53 @@
-# Marketplace V2: Documentation
+# Marketplace V2 Documentation
 
-Welcome to the official documentation for **Marketplace V2**. This project evolves traditional marketplaces by combining the best practices of Web2 (convenience, speed) and Web3 (transparency, decentralization), powered by Artificial Intelligence (AI).
+This folder is the main documentation source for architecture, product modules, and execution process.
 
-## 📚 Documentation Structure
+## Documentation Map
 
-### 🚀 Key Modules (Features)
-Detailed functional descriptions, usage instructions, and technical implementation:
+### Feature Docs
+- [AI Smart Search](./features/ai-smart-search.md)
+- [Magic Write](./features/magic-write.md)
+- [Seller Studio](./features/seller-studio.md)
 
-- **[AI Smart Search](./features/ai-smart-search.md)**: How our NLP search works based on Gemini 2.0.
-- **[Magic Write](./features/magic-write.md)**: Content generation for products using computer vision.
-- **[Seller Studio](./features/seller-studio.md)** (In Development): Tools for managing your store.
+### Technical Docs
+- [Architecture (Current + Target)](./technical/architecture.md)
+- [Technical Audit (2026-02-18)](./technical/audit-2026-02-18.md)
+- [Agentic Development Playbook](./technical/agentic-development-playbook.md)
+- [Design System](./technical/design-system.md)
+- [Database Schema Spec](./specs/database-schema.md)
 
-### 🛠 Technical Section
-For developers and architects:
+### Process Docs
+- [Sprint Operating Model](./process/sprint-operating-model.md)
+- [SPRINT_PLAYBOOK](./process/SPRINT_PLAYBOOK.md)
+- [TASK_TEMPLATE](./process/TASK_TEMPLATE.md)
+- [DEFINITION_OF_DONE](./process/DEFINITION_OF_DONE.md)
+- [RELEASE_FLOW](./process/RELEASE_FLOW.md)
+- [TEST_STRATEGY](./process/TEST_STRATEGY.md)
+- [Sprint Plan Template](./process/templates/sprint-plan-template.md)
+- [Story/Task Template](./process/templates/story-task-template.md)
+- [Retro Template](./process/templates/retrospective-template.md)
+- [PR Checklist Template](./process/templates/pr-checklist-template.md)
 
-- **[System Architecture](./technical/architecture.md)**: Stack overview (Next.js, NestJS, Prisma), databases, and integrations.
-- **[Design System (Aurora)](./technical/design-system.md)**: UI construction principles, Aurora theme, components.
+### Planning Artifacts (repo root)
+- `task.md`
+- `implementation_plan.md`
+- `walkthrough.md`
 
-## 🏁 Quick Start
+## Quick Start (Monorepo)
 
 ### Requirements
 - Node.js 18+
-- PostgreSQL
-- Google Gemini API Key
+- npm 10+
+- PostgreSQL (local or Docker)
 
 ### Launch
 ```bash
-# Install dependencies
 npm install
-
-# Initialize database
-npx prisma generate
-npx prisma db push
-
-# Start project (Web + API)
+npx turbo run db:generate --filter=@repo/database
+npx turbo run db:push --filter=@repo/database
 npx turbo run dev --filter=web --filter=@repo/api
 ```
+
+### Environment
+- Web template: `apps/web/.env.example`
+- API template: `apps/api/.env.example`

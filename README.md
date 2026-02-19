@@ -31,6 +31,7 @@ The "Amazon 3.0" of e-commerce. A decentralized-capable hybrid marketplace combi
 2.  **Start shared services (Database):**
     ```bash
     npx turbo run db:generate --filter=@repo/database
+    npx turbo run db:push --filter=@repo/database
     ```
 
 3.  **Run the development server:**
@@ -46,3 +47,12 @@ The "Amazon 3.0" of e-commerce. A decentralized-capable hybrid marketplace combi
 *   `local-setup.sh`: Kills zombie processes and restarts the dev server.
 *   `npx turbo run build`: Build all apps.
 *   `npx turbo run lint`: Lint all apps.
+
+## 📘 Project Docs
+
+*   Architecture: `docs/technical/architecture.md`
+*   Audit: `docs/technical/audit-2026-02-18.md`
+*   Agentic workflow: `docs/technical/agentic-development-playbook.md`
+*   Active planning files: `task.md`, `implementation_plan.md`, `walkthrough.md`
+*   Project context: `PROJECT_CONTEXT.md`
+*   Project rules: `RULES.md`

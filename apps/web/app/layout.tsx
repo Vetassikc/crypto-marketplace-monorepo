@@ -5,6 +5,7 @@ import { Web3Provider } from "@/components/providers/Web3Provider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Navbar } from "@/components/layout/Navbar";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { Toaster } from "sonner";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,6 +42,7 @@ export default function RootLayout({
                 <div className="pt-16">
                   {children}
                 </div>
+                <Toaster richColors position="bottom-right" />
               </AuroraBackground>
             </Web3Provider>
         </ThemeProvider>

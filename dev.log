@@ -2,58 +2,1048 @@
 • Packages in scope: @repo/api, web
 • Running dev in 2 packages
 • Remote caching disabled
-@repo/api:dev: cache bypass, force executing 8789e7396f00b349
-web:dev: cache bypass, force executing 180ba5076b9f0c5f
-web:dev: 
-web:dev: > web@0.1.0 dev
-web:dev: > next dev --port 3000
-web:dev: 
+@repo/api:dev: cache bypass, force executing ec3defb9989ea539
+web:dev: cache bypass, force executing 76315e0602b79168
 @repo/api:dev: 
 @repo/api:dev: > @repo/api@0.0.1 dev
 @repo/api:dev: > nest start --watch
 @repo/api:dev: 
+web:dev: 
+web:dev: > web@0.1.0 dev
+web:dev: > next dev --port 3000
+web:dev: 
 web:dev: ▲ Next.js 16.1.0 (Turbopack)
 web:dev: - Local:         http://localhost:3000
 web:dev: - Network:       http://192.168.1.35:3000
 web:dev: - Environments: .env.local
 web:dev: 
 web:dev: ✓ Starting...
-@repo/api:dev: [2J[3J[H[[90m2:52:16 PM[0m] Starting compilation in watch mode...
+@repo/api:dev: [2J[3J[H[[90m7:14:45 PM[0m] Starting compilation in watch mode...
 @repo/api:dev: 
-web:dev: ✓ Ready in 329ms
-@repo/api:dev: [[90m2:52:17 PM[0m] Found 0 errors. Watching for file changes.
+web:dev: ✓ Ready in 864ms
+@repo/api:dev: [[90m7:14:46 PM[0m] Found 0 errors. Watching for file changes.
 @repo/api:dev: 
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +21ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +1ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +1ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +1ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
-@repo/api:dev: [32m[Nest] 3260  - [39m02/03/2026, 2:52:17 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +38ms[39m
-web:dev:  GET /listings 200 in 289ms (compile: 206ms, render: 84ms)
-web:dev:  GET / 200 in 54ms (compile: 13ms, render: 42ms)
-web:dev:  GET / 200 in 17ms (compile: 7ms, render: 11ms)
-web:dev:  GET /listings 200 in 14ms (compile: 4ms, render: 11ms)
-web:dev:  GET / 200 in 15ms (compile: 5ms, render: 10ms)
-web:dev:  GET / 200 in 32ms (compile: 3ms, render: 28ms)
-web:dev:  GET /listings 200 in 8ms (compile: 1096µs, render: 7ms)
-web:dev:  GET /sell 200 in 36ms (compile: 26ms, render: 10ms)
-web:dev:  GET /my-orders 200 in 28ms (compile: 20ms, render: 8ms)
-web:dev: ✓ Compiled in 180ms
-web:dev: ✓ Compiled in 17ms
-web:dev: ✓ Compiled in 13ms
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +27ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 86511  - [39m02/03/2026, 7:14:47 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +73ms[39m
+web:dev:  GET / 200 in 397ms (compile: 229ms, render: 168ms)
+web:dev:  GET /listings 200 in 65ms (compile: 35ms, render: 30ms)
+web:dev:  GET /listings 200 in 20ms (compile: 7ms, render: 13ms)
+web:dev:  GET /sell 200 in 42ms (compile: 33ms, render: 9ms)
+web:dev:  GET /my-orders 200 in 37ms (compile: 27ms, render: 10ms)
+web:dev:  GET / 200 in 20ms (compile: 6ms, render: 14ms)
+web:dev:  GET /my-orders 200 in 15ms (compile: 4ms, render: 11ms)
+web:dev:  GET /listings 200 in 18ms (compile: 5ms, render: 13ms)
+web:dev:  GET /listings/cml6q0rex0007v4qcim2btita 200 in 1303ms (compile: 1290ms, render: 12ms)
+web:dev:  GET /my-orders 200 in 15ms (compile: 3ms, render: 12ms)
+web:dev:  GET /listings 200 in 11ms (compile: 2ms, render: 8ms)
+web:dev:  GET /listings/cml6q0rex0007v4qcim2btita 200 in 17ms (compile: 7ms, render: 10ms)
+web:dev:  GET /listings 200 in 17ms (compile: 5ms, render: 12ms)
+web:dev:  GET /sell 200 in 14ms (compile: 5ms, render: 9ms)
+web:dev: AI Generation Error: Error [AI_APICallError]: models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+web:dev:     at async POST (app/api/generate-description/route.ts:23:22)
+web:dev:   21 |     }
+web:dev:   22 |
+web:dev: > 23 |     const { text } = await generateText({
+web:dev:      |                      ^
+web:dev:   24 |       model: google('gemini-1.5-pro'),
+web:dev:   25 |       messages: [
+web:dev:   26 |         { {
+web:dev:   cause: undefined,
+web:dev:   url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent',
+web:dev:   requestBodyValues: [Object],
+web:dev:   statusCode: 404,
+web:dev:   responseHeaders: [Object],
+web:dev:   responseBody: '{\n' +
+web:dev:     '  "error": {\n' +
+web:dev:     '    "code": 404,\n' +
+web:dev:     '    "message": "models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",\n' +
+web:dev:     '    "status": "NOT_FOUND"\n' +
+web:dev:     '  }\n' +
+web:dev:     '}\n',
+web:dev:   isRetryable: false,
+web:dev:   data: [Object]
+web:dev: }
+web:dev:  POST /api/generate-description 200 in 678ms (compile: 98ms, render: 580ms)
+web:dev:  GET / 200 in 17ms (compile: 7ms, render: 10ms)
+web:dev:  GET /listings 200 in 16ms (compile: 5ms, render: 11ms)
+web:dev:  GET /listings/cml6q0rex0007v4qcim2btita 200 in 16ms (compile: 5ms, render: 11ms)
+web:dev: ✓ Compiled in 23ms
+web:dev: ✓ Compiled in 24ms
+web:dev:  GET /listings/cml6q0rex0007v4qcim2btita 200 in 182ms (compile: 56ms, render: 125ms)
+web:dev:  GET /my-listings 200 in 242ms (compile: 234ms, render: 8ms)
+@repo/api:dev: [31m[Nest] 86511  - [39m02/03/2026, 7:24:20 PM [31m  ERROR[39m [38;5;3m[ExceptionsHandler] [39mPrismaClientKnownRequestError: 
+@repo/api:dev: Invalid `this.prisma.listing.delete()` invocation in
+@repo/api:dev: /Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/listings/listings.service.ts:95:38
+@repo/api:dev: 
+@repo/api:dev:   92 }
+@repo/api:dev:   93 
+@repo/api:dev:   94 async remove(id: string) {
+@repo/api:dev: → 95   return this.prisma.listing.delete(
+@repo/api:dev: Foreign key constraint violated on the constraint: `Order_listingId_fkey`
+@repo/api:dev:     at ei.handleRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:228:13)
+@repo/api:dev:     at ei.handleAndLogRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:174:12)
+@repo/api:dev:     at ei.request (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:143:12)
+@repo/api:dev:     at async a (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/getPrismaClient.ts:833:24)
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-execution-context.js:46:28
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-proxy.js:9:17 {
+@repo/api:dev:   code: [32m'P2003'[39m,
+@repo/api:dev:   meta: {
+@repo/api:dev:     modelName: [32m'Listing'[39m,
+@repo/api:dev:     constraint: [32m'Order_listingId_fkey'[39m
+@repo/api:dev:   },
+@repo/api:dev:   clientVersion: [32m'6.19.1'[39m
+@repo/api:dev: }
+@repo/api:dev: [31m[Nest] 86511  - [39m02/03/2026, 7:24:24 PM [31m  ERROR[39m [38;5;3m[ExceptionsHandler] [39mPrismaClientKnownRequestError: 
+@repo/api:dev: Invalid `this.prisma.listing.delete()` invocation in
+@repo/api:dev: /Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/listings/listings.service.ts:95:38
+@repo/api:dev: 
+@repo/api:dev:   92 }
+@repo/api:dev:   93 
+@repo/api:dev:   94 async remove(id: string) {
+@repo/api:dev: → 95   return this.prisma.listing.delete(
+@repo/api:dev: Foreign key constraint violated on the constraint: `Order_listingId_fkey`
+@repo/api:dev:     at ei.handleRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:228:13)
+@repo/api:dev:     at ei.handleAndLogRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:174:12)
+@repo/api:dev:     at ei.request (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:143:12)
+@repo/api:dev:     at async a (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/getPrismaClient.ts:833:24)
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-execution-context.js:46:28
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-proxy.js:9:17 {
+@repo/api:dev:   code: [32m'P2003'[39m,
+@repo/api:dev:   meta: {
+@repo/api:dev:     modelName: [32m'Listing'[39m,
+@repo/api:dev:     constraint: [32m'Order_listingId_fkey'[39m
+@repo/api:dev:   },
+@repo/api:dev:   clientVersion: [32m'6.19.1'[39m
+@repo/api:dev: }
+web:dev:  GET /my-listings 200 in 34ms (compile: 5ms, render: 29ms)
+web:dev:  GET /my-orders 200 in 63ms (compile: 48ms, render: 15ms)
+web:dev:  GET /listings 200 in 62ms (compile: 47ms, render: 15ms)
+web:dev:  GET /sell 200 in 59ms (compile: 45ms, render: 14ms)
+web:dev: AI Generation Error: Error [AI_APICallError]: models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+web:dev:     at async POST (app/api/generate-description/route.ts:23:22)
+web:dev:   21 |     }
+web:dev:   22 |
+web:dev: > 23 |     const { text } = await generateText({
+web:dev:      |                      ^
+web:dev:   24 |       model: google('gemini-1.5-flash'),
+web:dev:   25 |       messages: [
+web:dev:   26 |         { {
+web:dev:   cause: undefined,
+web:dev:   url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
+web:dev:   requestBodyValues: [Object],
+web:dev:   statusCode: 404,
+web:dev:   responseHeaders: [Object],
+web:dev:   responseBody: '{\n' +
+web:dev:     '  "error": {\n' +
+web:dev:     '    "code": 404,\n' +
+web:dev:     '    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",\n' +
+web:dev:     '    "status": "NOT_FOUND"\n' +
+web:dev:     '  }\n' +
+web:dev:     '}\n',
+web:dev:   isRetryable: false,
+web:dev:   data: [Object]
+web:dev: }
+web:dev:  POST /api/generate-description 200 in 513ms (compile: 77ms, render: 436ms)
+web:dev:  GET /my-listings 200 in 17ms (compile: 3ms, render: 13ms)
+web:dev:  GET /sell?edit=cml6q0rex0007v4qcim2btita 200 in 17ms (compile: 6ms, render: 12ms)
+@repo/api:dev: [31m[Nest] 86511  - [39m02/03/2026, 7:24:50 PM [31m  ERROR[39m [38;5;3m[ExceptionsHandler] [39mPrismaClientKnownRequestError: 
+@repo/api:dev: Invalid `this.prisma.listing.delete()` invocation in
+@repo/api:dev: /Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/listings/listings.service.ts:95:38
+@repo/api:dev: 
+@repo/api:dev:   92 }
+@repo/api:dev:   93 
+@repo/api:dev:   94 async remove(id: string) {
+@repo/api:dev: → 95   return this.prisma.listing.delete(
+@repo/api:dev: Foreign key constraint violated on the constraint: `Order_listingId_fkey`
+@repo/api:dev:     at ei.handleRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:228:13)
+@repo/api:dev:     at ei.handleAndLogRequestError (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:174:12)
+@repo/api:dev:     at ei.request (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/RequestHandler.ts:143:12)
+@repo/api:dev:     at async a (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@prisma/client[24m/src/runtime/getPrismaClient.ts:833:24)
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-execution-context.js:46:28
+@repo/api:dev:     at async /Users/vitaliiradionov/Desktop/Marketplace/node_modules/[4m@nestjs/core[24m/router/router-proxy.js:9:17 {
+@repo/api:dev:   code: [32m'P2003'[39m,
+@repo/api:dev:   meta: {
+@repo/api:dev:     modelName: [32m'Listing'[39m,
+@repo/api:dev:     constraint: [32m'Order_listingId_fkey'[39m
+@repo/api:dev:   },
+@repo/api:dev:   clientVersion: [32m'6.19.1'[39m
+@repo/api:dev: }
+web:dev:  GET / 200 in 67ms (compile: 53ms, render: 14ms)
+@repo/api:dev: [2J[3J[H[[90m7:27:48 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m7:27:48 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +13ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +55ms[39m
+@repo/api:dev: [31m[Nest] 98016  - [39m02/03/2026, 7:27:49 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev:  GET /listings 200 in 25ms (compile: 9ms, render: 16ms)
+web:dev:  GET /listings/cml6q0rex0007v4qcim2btita 200 in 22ms (compile: 10ms, render: 12ms)
+web:dev:  GET /my-listings 200 in 17ms (compile: 6ms, render: 11ms)
+web:dev:  GET /sell?edit=cml6q0rex0007v4qcim2btita 200 in 21ms (compile: 8ms, render: 13ms)
+web:dev:  GET /my-listings 200 in 15ms (compile: 3ms, render: 13ms)
+web:dev:  GET /listings 200 in 21ms (compile: 6ms, render: 14ms)
+web:dev:  GET /sell 200 in 19ms (compile: 5ms, render: 14ms)
+web:dev:  POST /api/generate-description 200 in 2.9s (compile: 282ms, render: 2.6s)
+web:dev:  GET /my-listings 200 in 21ms (compile: 6ms, render: 15ms)
+web:dev:  GET / 200 in 13ms (compile: 4ms, render: 9ms)
+web:dev:  GET /listings 200 in 15ms (compile: 5ms, render: 10ms)
+web:dev:  GET /sell 200 in 18ms (compile: 3ms, render: 14ms)
+web:dev:  POST /api/generate-description 200 in 2.4s (compile: 4ms, render: 2.4s)
+web:dev:  GET /my-listings 200 in 16ms (compile: 3ms, render: 13ms)
+web:dev:  GET /my-listings 200 in 46ms (compile: 7ms, render: 39ms)
+web:dev: ✓ Compiled in 30ms
+@repo/api:dev: [2J[3J[H[[90m7:35:33 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m7:35:33 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +347ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 5392  - [39m02/03/2026, 7:35:34 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +53ms[39m
+web:dev:  GET / 200 in 24ms (compile: 9ms, render: 15ms)
+@repo/api:dev: [2J[3J[H[[90m10:02:53 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:02:54 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +480ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69101  - [39m02/03/2026, 10:02:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +58ms[39m
+@repo/api:dev: [2J[3J[H[[90m10:03:10 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:03:10 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +28ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +211ms[39m
+@repo/api:dev: [31m[Nest] 69253  - [39m02/03/2026, 10:03:11 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +2ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+@repo/api:dev: [2J[3J[H[[90m10:03:14 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:03:14 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +61ms[39m
+@repo/api:dev: [31m[Nest] 69393  - [39m02/03/2026, 10:03:14 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+@repo/api:dev: [2J[3J[H[[90m10:03:16 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:03:16 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +24ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +3ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +70ms[39m
+@repo/api:dev: [31m[Nest] 69394  - [39m02/03/2026, 10:03:16 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev: ✓ Compiled in 99ms
+web:dev: ✓ Compiled in 89ms
+web:dev: ✓ Compiled in 45ms
+@repo/api:dev: [2J[3J[H[[90m10:15:37 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:15:38 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +55ms[39m
+@repo/api:dev: [31m[Nest] 80507  - [39m02/03/2026, 10:15:38 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev: ⨯ ./apps/web/app/listings/[id]/page.tsx:8:1
+web:dev: Module not found: Can't resolve 'sonner'
+web:dev: [0m [90m  6 |[39m [36mimport[39m { useEscrow } [36mfrom[39m [32m"@/hooks/useEscrow"[39m
+web:dev:  [90m  7 |[39m [36mimport[39m { useAccount } [36mfrom[39m [32m"wagmi"[39m
+web:dev: [31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"sonner"[39m
+web:dev:  [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+web:dev:  [90m  9 |[39m [36mimport[39m { useEffect } [36mfrom[39m [32m"react"[39m
+web:dev:  [90m 10 |[39m
+web:dev:  [90m 11 |[39m [36minterface[39m [33mListing[39m {[0m
+web:dev: 
+web:dev: 
+web:dev: 
+web:dev: https://nextjs.org/docs/messages/module-not-found
+web:dev: 
+web:dev: 
+web:dev: ⨯ ./apps/web/app/listings/[id]/page.tsx:8:1
+web:dev: Module not found: Can't resolve 'sonner'
+web:dev: [0m [90m  6 |[39m [36mimport[39m { useEscrow } [36mfrom[39m [32m"@/hooks/useEscrow"[39m
+web:dev:  [90m  7 |[39m [36mimport[39m { useAccount } [36mfrom[39m [32m"wagmi"[39m
+web:dev: [31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { toast } [36mfrom[39m [32m"sonner"[39m
+web:dev:  [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+web:dev:  [90m  9 |[39m [36mimport[39m { useEffect } [36mfrom[39m [32m"react"[39m
+web:dev:  [90m 10 |[39m
+web:dev:  [90m 11 |[39m [36minterface[39m [33mListing[39m {[0m
+web:dev: 
+web:dev: 
+web:dev: 
+web:dev: https://nextjs.org/docs/messages/module-not-found
+web:dev: 
+web:dev: 
+web:dev: ⨯ ./apps/web/hooks/useEscrow.ts:4:1
+web:dev: Module not found: Can't resolve 'sonner'
+web:dev: [0m [90m 2 |[39m [36mimport[39m { parseEther } [36mfrom[39m [32m'viem'[39m[33m;[39m
+web:dev:  [90m 3 |[39m [36mimport[39m { [33mESCROW_ADDRESS[39m[33m,[39m [33mESCROW_ABI[39m } [36mfrom[39m [32m'@/lib/contracts'[39m[33m;[39m
+web:dev: [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { toast } [36mfrom[39m [32m'sonner'[39m[33m;[39m
+web:dev:  [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+web:dev:  [90m 5 |[39m
+web:dev:  [90m 6 |[39m [36mexport[39m [36mfunction[39m useEscrow() {
+web:dev:  [90m 7 |[39m   [36mconst[39m { data[33m:[39m hash[33m,[39m writeContract[33m,[39m isPending[33m,[39m error[33m:[39m writeError } [33m=[39m useWriteContract()[33m;[39m[0m
+web:dev: 
+web:dev: 
+web:dev: 
+web:dev: Import trace:
+web:dev:   Server Component:
+web:dev:     ./apps/web/hooks/useEscrow.ts
+web:dev:     ./apps/web/app/listings/[id]/page.tsx
+web:dev: 
+web:dev: https://nextjs.org/docs/messages/module-not-found
+web:dev: 
+web:dev: 
+web:dev: ⨯ ./apps/web/hooks/useEscrow.ts:4:1
+web:dev: Module not found: Can't resolve 'sonner'
+web:dev: [0m [90m 2 |[39m [36mimport[39m { parseEther } [36mfrom[39m [32m'viem'[39m[33m;[39m
+web:dev:  [90m 3 |[39m [36mimport[39m { [33mESCROW_ADDRESS[39m[33m,[39m [33mESCROW_ABI[39m } [36mfrom[39m [32m'@/lib/contracts'[39m[33m;[39m
+web:dev: [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { toast } [36mfrom[39m [32m'sonner'[39m[33m;[39m
+web:dev:  [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+web:dev:  [90m 5 |[39m
+web:dev:  [90m 6 |[39m [36mexport[39m [36mfunction[39m useEscrow() {
+web:dev:  [90m 7 |[39m   [36mconst[39m { data[33m:[39m hash[33m,[39m writeContract[33m,[39m isPending[33m,[39m error[33m:[39m writeError } [33m=[39m useWriteContract()[33m;[39m[0m
+web:dev: 
+web:dev: 
+web:dev: 
+web:dev: Import trace:
+web:dev:   Server Component:
+web:dev:     ./apps/web/hooks/useEscrow.ts
+web:dev:     ./apps/web/app/listings/[id]/page.tsx
+web:dev: 
+web:dev: https://nextjs.org/docs/messages/module-not-found
+web:dev: 
+web:dev: 
+web:dev: ✓ Compiled in 254ms
+@repo/api:dev: [2J[3J[H[[90m10:15:59 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:15:59 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsControlle@repo/api:dev: [2J[3J[H[[90m10:16:01 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:16:01 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [2J[3J[H[[90m10:25:34 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:35 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [2J[3J[H[[90m10:25:59 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:59 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [2J[3J[H[[90m10:27:02 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:27:03 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+  x Internal errors encountered: external process killed a task
+
+m[32mNest application successfully started[39m[38;5;3m +54ms[39m
+@repo/api:dev: [31m[Nest] 80994  - [39m02/03/2026, 10:15:59 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 300@repo/api:dev: [2J[3J[H[[90m10:16:01 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'Listi@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[InstanceLoader]@repo/api:dev: [2J[3J[H[[90m10:25:34 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:35 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [2J[3J[H[[90m10:25:59 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:59 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [2J[3J[H[[90m10:27:02 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [96msrc/listings/listings.service.ts[0m:[93m38[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'category' does not exist on type 'ListingWhereInput'.
+@repo/api:dev: 
+@repo/api:dev: [7m38[0m       where.category = category;
+@repo/api:dev: [7m  [0m [91m            ~~~~~~~~[0m
+@repo/api:dev: 
+@repo/api:dev: [[90m10:27:03 PM[0m] Found 1 error. Watching for file changes.
+@repo/api:dev: 
+  x Internal errors encountered: external process killed a task
+
+[32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +110ms[39m
+@repo/api:dev: [31m[Nest] 80998  - [39m02/03/2026, 10:16:01 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev:  GET / 200 in 178ms (compile: 58ms, render: 120ms)
+web:dev:  GET / 200 in 16ms (compile: 4ms, render: 13ms)
+web:dev: ✓ Compiled in 139ms
+web:dev:  GET /sell 200 in 101ms (compile: 85ms, render: 16ms)
+web:dev:  GET /listings 200 in 96ms (compile: 81ms, render: 14ms)
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 157ms (compile: 142ms, render: 14ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 16ms (compile: 5ms, render: 11ms)
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 123ms (compile: 54ms, render: 69ms)
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 85ms (compile: 5ms, render: 79ms)
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 72ms (compile: 19ms, render: 54ms)
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 35ms (compile: 3ms, render: 32ms)
+web:dev: ⨯ ReferenceError: Toaster is not defined
+web:dev:     at RootLayout (app/layout.tsx:44:18)
+web:dev:   42 |                   {children}
+web:dev:   43 |                 </div>
+web:dev: > 44 |                 <Toaster richColors position="bottom-right" />
+web:dev:      |                  ^
+web:dev:   45 |               </AuroraBackground>
+web:dev:   46 |             </Web3Provider>
+web:dev:   47 |         </ThemeProvider> {
+web:dev:   digest: '2935465491'
+web:dev: }
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 28ms (compile: 1848µs, render: 26ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 17ms (compile: 2ms, render: 15ms)
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 169ms
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 23ms (compile: 1554µs, render: 22ms)
 web:dev: ✓ Compiled in 16ms
-web:dev:  GET /my-orders 200 in 82ms (compile: 39ms, render: 44ms)
-web:dev:  GET /listings 200 in 41ms (compile: 30ms, render: 10ms)
-web:dev:  GET / 200 in 16ms (compile: 5ms, render: 11ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 188ms (compile: 63ms, render: 125ms)
+web:dev:  GET /listings 200 in 70ms (compile: 55ms, render: 15ms)
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 17ms (compile: 6ms, render: 11ms)
+web:dev:  GET /sell 200 in 67ms (compile: 53ms, render: 14ms)
+web:dev:  POST /api/generate-description 200 in 2.1s (compile: 7ms, render: 2.1s)
+web:dev:  GET /my-listings 200 in 86ms (compile: 72ms, render: 14ms)
+web:dev:  GET /listings 200 in 14ms (compile: 4ms, render: 11ms)
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 15ms (compile: 6ms, render: 9ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 19ms (compile: 7ms, render: 12ms)
+@repo/api:dev: [2J[3J[H[[90m10:25:34 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:35 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +54ms[39m
+@repo/api:dev: [31m[Nest] 89668  - [39m02/03/2026, 10:25:35 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+@repo/api:dev: [2J[3J[H[[90m10:25:59 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:25:59 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +46ms[39m
+@repo/api:dev: [31m[Nest] 90099  - [39m02/03/2026, 10:26:00 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev: ✓ Compiled in 42ms
+@repo/api:dev: [2J[3J[H[[90m10:27:02 PM[0m] File change detected. Starting incremental compilation...
+@repo/api:dev: 
+@repo/api:dev: [[90m10:27:03 PM[0m] Found 0 errors. Watching for file changes.
+@repo/api:dev: 
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +11ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mListingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOrdersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +2ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/status, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mListingsController {/listings}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, POST} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, PATCH} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/listings/:id, DELETE} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mOrdersController {/orders}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders, GET} route[39m[38;5;3m +1ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/orders/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/login, POST} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +0ms[39m
+@repo/api:dev: [32m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +54ms[39m
+@repo/api:dev: [31m[Nest] 91299  - [39m02/03/2026, 10:27:03 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3001[39m[38;5;3m +1ms[39m
+@repo/api:dev: node:net:1940
+@repo/api:dev:     const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+@repo/api:dev:                ^
+@repo/api:dev: 
+@repo/api:dev: Error: listen EADDRINUSE: address already in use :::3001
+@repo/api:dev:     at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+@repo/api:dev:     at listenInCluster (node:net:1997:12)
+@repo/api:dev:     at Server.listen (node:net:2102:7)
+@repo/api:dev:     at ExpressAdapter.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+@repo/api:dev:     at /Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:188:30
+@repo/api:dev:     at new Promise (<anonymous>)
+@repo/api:dev:     at NestApplication.listen (/Users/vitaliiradionov/Desktop/Marketplace/node_modules/@nestjs/core/nest-application.js:178:16)
+@repo/api:dev:     at async bootstrap (/Users/vitaliiradionov/Desktop/Marketplace/apps/api/src/main.ts:11:3) {
+@repo/api:dev:   code: 'EADDRINUSE',
+@repo/api:dev:   errno: -48,
+@repo/api:dev:   syscall: 'listen',
+@repo/api:dev:   address: '::',
+@repo/api:dev:   port: 3001
+@repo/api:dev: }
+@repo/api:dev: 
+@repo/api:dev: Node.js v24.12.0
+web:dev:  GET /my-orders 200 in 174ms (compile: 154ms, render: 20ms)
+web:dev:  GET /listings 200 in 17ms (compile: 5ms, render: 12ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 66ms (compile: 50ms, render: 16ms)
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 19ms (compile: 6ms, render: 13ms)
+web:dev:  GET /my-orders 200 in 15ms (compile: 3ms, render: 12ms)
+web:dev:  GET /my-listings 200 in 15ms (compile: 4ms, render: 11ms)
+web:dev:  GET /my-orders 200 in 14ms (compile: 3ms, render: 12ms)
+web:dev:  GET /my-listings 200 in 16ms (compile: 3ms, render: 13ms)
+web:dev:  GET / 200 in 73ms (compile: 55ms, render: 19ms)
+web:dev: ✓ Compiled in 27ms
+web:dev: ✓ Compiled in 100ms
+web:dev: ⨯ ReferenceError: mainnet is not defined
+web:dev:     at module evaluation (lib/wagmi.ts:8:6)
+web:dev:     at module evaluation (components/providers/Web3Provider.tsx:5:1)
+web:dev:    6 |   transports: {
+web:dev:    7 |     [tempoTestnet.id]: http(),
+web:dev: >  8 |     [mainnet.id]: http(),
+web:dev:      |      ^
+web:dev:    9 |     [sepolia.id]: http(),
+web:dev:   10 |   },
+web:dev:   11 | }) {
+web:dev:   digest: '1141173535'
+web:dev: }
+web:dev:  GET / 500 in 335ms (compile: 44ms, render: 291ms)
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ⚠ Fast Refresh had to perform a full reload when ./apps/web/lib/wagmi.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 25ms
+web:dev:  GET / 200 in 127ms (compile: 39ms, render: 88ms)
+web:dev:  GET / 200 in 44ms (compile: 9ms, render: 35ms)
+web:dev:  GET /listings 200 in 84ms (compile: 64ms, render: 20ms)
+web:dev:  GET /my-orders 200 in 57ms (compile: 44ms, render: 13ms)
+web:dev:  GET /listings 200 in 18ms (compile: 3ms, render: 15ms)
+web:dev:  GET /listings/cmk6y7luk0001v42uo1cipmqq 200 in 64ms (compile: 48ms, render: 16ms)
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 17ms (compile: 6ms, render: 10ms)
+web:dev: ✓ Compiled in 31ms
+web:dev: ✓ Compiled in 91ms
+web:dev: ✓ Compiled in 39ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 172ms (compile: 54ms, render: 118ms)
+web:dev: ✓ Compiled in 40ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 167ms (compile: 63ms, render: 104ms)
+web:dev:  GET /listings 200 in 18ms (compile: 8ms, render: 10ms)
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 12ms (compile: 3ms, render: 9ms)
+web:dev: ✓ Compiled in 15ms
+web:dev: ✓ Compiled in 32ms
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 158ms (compile: 58ms, render: 99ms)
+web:dev:  GET /listings 200 in 17ms (compile: 4ms, render: 13ms)
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 13ms (compile: 4ms, render: 9ms)
+web:dev: ✓ Compiled in 38ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 162ms (compile: 58ms, render: 104ms)
+web:dev: ✓ Compiled in 25ms
+web:dev: ✓ Compiled in 15ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 169ms (compile: 66ms, render: 103ms)
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 19ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 146ms (compile: 46ms, render: 100ms)
+web:dev: ✓ Compiled in 17ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 183ms (compile: 67ms, render: 116ms)
+web:dev: ✓ Compiled in 39ms
+web:dev: ✓ Compiled in 84ms
+web:dev: ✓ Compiled in 28ms
+web:dev: ✓ Compiled in 68ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 112ms (compile: 85ms, render: 27ms)
+web:dev: ✓ Compiled in 76ms
+web:dev: ✓ Compiled in 19ms
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 16ms
+web:dev:  GET /listings/cml6xql260001v4m5mgqtnjyx 200 in 427ms (compile: 114ms, render: 313ms)
+web:dev: ✓ Compiled in 19ms
+web:dev:  GET /listings 200 in 30ms (compile: 11ms, render: 19ms)
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 88ms (compile: 69ms, render: 19ms)
+web:dev: ✓ Compiled in 20ms
+web:dev: ✓ Compiled in 42ms
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 73ms (compile: 52ms, render: 21ms)
+web:dev: ✓ Compiled in 43ms
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 59ms
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 256ms (compile: 101ms, render: 155ms)
+web:dev: ✓ Compiled in 16ms
+web:dev: ✓ Compiled in 26ms
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 90ms
+web:dev: ⨯ ReferenceError: tempoTestnet is not defined
+web:dev:     at useEscrow (hooks/useEscrow.ts:29:14)
+web:dev:     at ListingDetailsPage (app/listings/[id]/page.tsx:52:135)
+web:dev:   27 |     address: userAddress,
+web:dev:   28 |     token: AUSD_ADDRESS,
+web:dev: > 29 |     chainId: tempoTestnet.id, // Explicitly enforce chain
+web:dev:      |              ^
+web:dev:   30 |   });
+web:dev:   31 |
+web:dev:   32 |   const balance = balanceData?.value; // Expose BigInt directly {
+web:dev:   digest: '3983649631'
+web:dev: }
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 500 in 200ms (compile: 66ms, render: 134ms)
+web:dev: ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+web:dev: ✓ Compiled in 43ms
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 228ms (compile: 53ms, render: 175ms)
+web:dev:  GET /listings/cml73tczb0001v4fnnmvt8zx5 200 in 35ms (compile: 6ms, render: 29ms)
+web:dev: [?25h
+  x Internal errors encountered: external process killed a task
+
