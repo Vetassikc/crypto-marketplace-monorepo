@@ -47,6 +47,8 @@ The "Amazon 3.0" of e-commerce. A decentralized-capable hybrid marketplace combi
 *   `local-setup.sh`: Kills zombie processes and restarts the dev server.
 *   `npx turbo run build`: Build all apps.
 *   `npx turbo run lint`: Lint all apps.
+*   `bash scripts/setup-local-guards.sh`: Enables pre-push automation (secret scan + lint + typecheck).
+*   `GITHUB_TOKEN=... bash scripts/github/go-public-and-protect.sh`: One-command public repo + branch protection setup.
 
 ## 📘 Project Docs
 

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[pre-push] Secret scan (tracked + history)"
+bash scripts/secret-scan.sh --history
+
+echo "[pre-push] Lint"
+npm run lint >/dev/null
+
+echo "[pre-push] Typecheck"
+npm run check-types >/dev/null
+
+echo "[pre-push] OK"

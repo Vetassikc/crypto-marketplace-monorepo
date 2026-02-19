@@ -102,7 +102,7 @@ model Order {
 
 ### Backend (`apps/api/.env`)
 ```env
-DATABASE_URL="postgresql://postgres:54irimez@localhost:5432/marketplace"
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/marketplace"
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_PUBLISHABLE_KEY=pk_test_...
 PORT=3001

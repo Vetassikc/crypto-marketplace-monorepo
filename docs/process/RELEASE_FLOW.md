@@ -22,3 +22,18 @@
 1. Monitor health and error rates.
 2. Validate critical user journeys.
 3. If needed, execute rollback plan.
+
+## One-Command Public Setup
+Use this only when you are ready to make the repository public and enforce branch protection via GitHub API:
+
+1. Create a temporary token with repo admin permissions.
+2. Run:
+   - `GITHUB_TOKEN=... bash scripts/github/go-public-and-protect.sh`
+3. Optional overrides:
+   - `OWNER=... REPO=... BRANCH=main RUN_VERIFY=1 REQUIRED_CHECKS_CSV="CI / secret-scan,CI / lint,CI / typecheck,CI / build,CI / api-tests" bash scripts/github/go-public-and-protect.sh`
+
+The script performs:
+- secret scan on tracked files + git history;
+- optional `verify` gate run;
+- repository visibility switch to public;
+- branch protection setup with required checks.
