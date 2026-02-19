@@ -18,9 +18,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Run secret scan
-        run: bash scripts/secret-scan.sh
+        run: bash scripts/secret-scan.sh --history
 
   lint:
     name: lint

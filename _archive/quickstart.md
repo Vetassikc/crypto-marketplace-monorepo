@@ -95,7 +95,7 @@ Marketplace/
 
 **Backend** (`marketplace-server/.env`):
 ```env
-DATABASE_URL="postgresql://postgres:54irimez@localhost:5432/marketplace"
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/marketplace"
 STRIPE_SECRET_KEY=sk_test_...
 FRONTEND_URL=http://localhost:3000
 ```
